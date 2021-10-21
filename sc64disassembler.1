@@ -1,0 +1,59 @@
+.TH SC64DISASSEMBLER 1 "2021 Jun 01"
+.SH NAME
+sc64disassembler \- disassembler for the spiderchip64
+.SH SYNOPSIS
+.br
+.B sc64disassembler
+inputfile [options]
+.br
+.B sc64disassembler
+\- [options]
+.SH DESCRIPTION
+.B Sc64disassembler
+is a disassembler that can disassemble spiderchip64 binary programs to a plain
+text assembly.
+.SH OPTIONS
+The options may be given in any order, before or after inputfile.
+Options without an argument can be combined after a single dash.
+.TP
+\fB\-\fR
+read the file from stdin instead of inputfile.
+.TP
+\fB\-\-\fR
+end the options parsing.
+.TP
+\fB\-w\fR, \fB\-\-address\-width\fR {width}
+precise the size of the addresses in a number of bits 
+(default is 24 bits, can be between 8 and 64)
+.TP
+\fB\-s\fR, \fB\-\-start\-address\fR {address}
+precise the starting address of the disassembly 
+(default is 0, 
+this option can't be used with -r or -e)
+.TP
+\fB\-r\fR, \fB\-\-rom\fR
+consider the inputfile as a rom and make sure that the ending address is 0 
+(this option can't be used with -s or -e)
+.TP
+\fB\-e\fR, \fB\-\-end\-address \fR{address}
+precise the last address 
+(this option can't be used with -s or -r)
+.TP
+\fB\-m\fR, \fB\-\-mnemonic\-only\fR
+output only the mnemonics, not the address and the instruction word
+.TP
+\fB\-h\fR, \fB\-\-help\fR
+display this help and exit
+.TP
+\fB\-\-version\fR
+output version information and exit
+.SH AUTHOR
+Written by Aurélien Casteilla.
+.SH COPYRIGHT
+Copyright (c) 2021 Aurélien Casteilla.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+.br
+This is free software: you are free to change and redistribute it. 
+There is NO WARRANTY, to the estent permitted by law.
+.SH "SEE ALSO"
+sc64assembler(1), sc64debugger(1)

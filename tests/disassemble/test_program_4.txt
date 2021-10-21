@@ -1,0 +1,1240 @@
+ffffffffffffeca0:    0600006f    BAL $ffffffffffffecb0
+ffffffffffffeca4:    0607ffef    BAL $ffffffffffffeca4
+ffffffffffffeca8:    0604000f    BAL $ffffffffffff6cac
+ffffffffffffecac:    0603ffef    BAL $0000000000006cac
+ffffffffffffecb0:    0600001f    BAL LR
+ffffffffffffecb4:    06012345    BAL R5, $2468
+ffffffffffffecb8:    1600006f    ILG
+ffffffffffffecbc:    1607ffef    ILG
+ffffffffffffecc0:    1604000f    ILG
+ffffffffffffecc4:    1603ffef    ILG
+ffffffffffffecc8:    1600001f    ILG
+ffffffffffffeccc:    16012345    ILG
+ffffffffffffecd0:    2600006f    BCC $ffffffffffffece0
+ffffffffffffecd4:    2607ffef    BCC $ffffffffffffecd4
+ffffffffffffecd8:    2604000f    BCC $ffffffffffff6cdc
+ffffffffffffecdc:    2603ffef    BCC $0000000000006cdc
+ffffffffffffece0:    2600001f    BCC LR
+ffffffffffffece4:    26012345    BCC R5, $2468
+ffffffffffffece8:    3600006f    BCS $ffffffffffffecf8
+ffffffffffffecec:    3607ffef    BCS $ffffffffffffecec
+ffffffffffffecf0:    3604000f    BCS $ffffffffffff6cf4
+ffffffffffffecf4:    3603ffef    BCS $0000000000006cf4
+ffffffffffffecf8:    3600001f    BCS LR
+ffffffffffffecfc:    36012345    BCS R5, $2468
+ffffffffffffed00:    4600006f    BNE $ffffffffffffed10
+ffffffffffffed04:    4607ffef    BNE $ffffffffffffed04
+ffffffffffffed08:    4604000f    BNE $ffffffffffff6d0c
+ffffffffffffed0c:    4603ffef    BNE $0000000000006d0c
+ffffffffffffed10:    4600001f    BNE LR
+ffffffffffffed14:    46012345    BNE R5, $2468
+ffffffffffffed18:    5600006f    BEQ $ffffffffffffed28
+ffffffffffffed1c:    5607ffef    BEQ $ffffffffffffed1c
+ffffffffffffed20:    5604000f    BEQ $ffffffffffff6d24
+ffffffffffffed24:    5603ffef    BEQ $0000000000006d24
+ffffffffffffed28:    5600001f    BEQ LR
+ffffffffffffed2c:    56012345    BEQ R5, $2468
+ffffffffffffed30:    6600006f    BLE $ffffffffffffed40
+ffffffffffffed34:    6607ffef    BLE $ffffffffffffed34
+ffffffffffffed38:    6604000f    BLE $ffffffffffff6d3c
+ffffffffffffed3c:    6603ffef    BLE $0000000000006d3c
+ffffffffffffed40:    6600001f    BLE LR
+ffffffffffffed44:    66012345    BLE R5, $2468
+ffffffffffffed48:    7600006f    BGT $ffffffffffffed58
+ffffffffffffed4c:    7607ffef    BGT $ffffffffffffed4c
+ffffffffffffed50:    7604000f    BGT $ffffffffffff6d54
+ffffffffffffed54:    7603ffef    BGT $0000000000006d54
+ffffffffffffed58:    7600001f    BGT LR
+ffffffffffffed5c:    76012345    BGT R5, $2468
+ffffffffffffed60:    8600006f    BLT $ffffffffffffed70
+ffffffffffffed64:    8607ffef    BLT $ffffffffffffed64
+ffffffffffffed68:    8604000f    BLT $ffffffffffff6d6c
+ffffffffffffed6c:    8603ffef    BLT $0000000000006d6c
+ffffffffffffed70:    8600001f    BLT LR
+ffffffffffffed74:    86012345    BLT R5, $2468
+ffffffffffffed78:    9600006f    BGE $ffffffffffffed88
+ffffffffffffed7c:    9607ffef    BGE $ffffffffffffed7c
+ffffffffffffed80:    9604000f    BGE $ffffffffffff6d84
+ffffffffffffed84:    9603ffef    BGE $0000000000006d84
+ffffffffffffed88:    9600001f    BGE LR
+ffffffffffffed8c:    96012345    BGE R5, $2468
+ffffffffffffed90:    a600006f    BLQ $ffffffffffffeda0
+ffffffffffffed94:    a607ffef    BLQ $ffffffffffffed94
+ffffffffffffed98:    a604000f    BLQ $ffffffffffff6d9c
+ffffffffffffed9c:    a603ffef    BLQ $0000000000006d9c
+ffffffffffffeda0:    a600001f    BLQ LR
+ffffffffffffeda4:    a6012345    BLQ R5, $2468
+ffffffffffffeda8:    b600006f    BHI $ffffffffffffedb8
+ffffffffffffedac:    b607ffef    BHI $ffffffffffffedac
+ffffffffffffedb0:    b604000f    BHI $ffffffffffff6db4
+ffffffffffffedb4:    b603ffef    BHI $0000000000006db4
+ffffffffffffedb8:    b600001f    BHI LR
+ffffffffffffedbc:    b6012345    BHI R5, $2468
+ffffffffffffedc0:    c600006f    BVC $ffffffffffffedd0
+ffffffffffffedc4:    c607ffef    BVC $ffffffffffffedc4
+ffffffffffffedc8:    c604000f    BVC $ffffffffffff6dcc
+ffffffffffffedcc:    c603ffef    BVC $0000000000006dcc
+ffffffffffffedd0:    c600001f    BVC LR
+ffffffffffffedd4:    c6012345    BVC R5, $2468
+ffffffffffffedd8:    d600006f    BVS $ffffffffffffede8
+ffffffffffffeddc:    d607ffef    BVS $ffffffffffffeddc
+ffffffffffffede0:    d604000f    BVS $ffffffffffff6de4
+ffffffffffffede4:    d603ffef    BVS $0000000000006de4
+ffffffffffffede8:    d600001f    BVS LR
+ffffffffffffedec:    d6012345    BVS R5, $2468
+ffffffffffffedf0:    e600006f    BPL $ffffffffffffee00
+ffffffffffffedf4:    e607ffef    BPL $ffffffffffffedf4
+ffffffffffffedf8:    e604000f    BPL $ffffffffffff6dfc
+ffffffffffffedfc:    e603ffef    BPL $0000000000006dfc
+ffffffffffffee00:    e600001f    BPL LR
+ffffffffffffee04:    e6012345    BPL R5, $2468
+ffffffffffffee08:    f600006f    BMI $ffffffffffffee18
+ffffffffffffee0c:    f607ffef    BMI $ffffffffffffee0c
+ffffffffffffee10:    f604000f    BMI $ffffffffffff6e14
+ffffffffffffee14:    f603ffef    BMI $0000000000006e14
+ffffffffffffee18:    f600001f    BMI LR
+ffffffffffffee1c:    f6012345    BMI R5, $2468
+ffffffffffffee20:    0f07bd84    LDW R4, $0000000000003dec
+ffffffffffffee24:    0f09bd84    LDW R4, $ffffffffffffcdec
+ffffffffffffee28:    0f2002b4    LDW R20, R21
+ffffffffffffee2c:    0f34a2b4    LDWS R20, R21, $128
+ffffffffffffee30:    0f24a1f4    LDW R20, PC, $ffffffffffffef5c
+ffffffffffffee34:    0f28a1f4    LDW R20, PC, $ffffffffffffec60
+ffffffffffffee38:    0f405594    LDW R20, R12, R21
+ffffffffffffee3c:    0f4bd594    LDW R20, R12, R21 << 23
+ffffffffffffee40:    0f605594    LDW R20, R12, R21+
+ffffffffffffee44:    0f645594    LDW R20, R12, R21-
+ffffffffffffee48:    0f685594    LDW R20, R12, +R21
+ffffffffffffee4c:    0f6c5594    LDW R20, R12, -R21
+ffffffffffffee50:    ff2002b4    MI.LDW R20, R21
+ffffffffffffee54:    ff34a2b4    MI.LDWS R20, R21, $128
+ffffffffffffee58:    0e87bd84    LWS R4, $0000000000003dec
+ffffffffffffee5c:    0e89bd84    LWS R4, $ffffffffffffcdec
+ffffffffffffee60:    0ea002b4    LWS R20, R21
+ffffffffffffee64:    0eb4a2b4    LWSS R20, R21, $128
+ffffffffffffee68:    0ea4a1f4    LWS R20, PC, $ffffffffffffef94
+ffffffffffffee6c:    0ea8a1f4    LWS R20, PC, $ffffffffffffec98
+ffffffffffffee70:    0ec05594    LWS R20, R12, R21
+ffffffffffffee74:    0ecbd594    LWS R20, R12, R21 << 23
+ffffffffffffee78:    0ee05594    LWS R20, R12, R21+
+ffffffffffffee7c:    0ee45594    LWS R20, R12, R21-
+ffffffffffffee80:    0ee85594    LWS R20, R12, +R21
+ffffffffffffee84:    0eec5594    LWS R20, R12, -R21
+ffffffffffffee88:    eea002b4    PL.LWS R20, R21
+ffffffffffffee8c:    eeb4a2b4    PL.LWSS R20, R21, $128
+ffffffffffffee90:    0e07bd84    LWU R4, $0000000000003dec
+ffffffffffffee94:    0e09bd84    LWU R4, $ffffffffffffcdec
+ffffffffffffee98:    0e2002b4    LWU R20, R21
+ffffffffffffee9c:    0e34a2b4    LWUS R20, R21, $128
+ffffffffffffeea0:    0e24a1f4    LWU R20, PC, $ffffffffffffefcc
+ffffffffffffeea4:    0e28a1f4    LWU R20, PC, $ffffffffffffecd0
+ffffffffffffeea8:    0e405594    LWU R20, R12, R21
+ffffffffffffeeac:    0e4bd594    LWU R20, R12, R21 << 23
+ffffffffffffeeb0:    0e605594    LWU R20, R12, R21+
+ffffffffffffeeb4:    0e645594    LWU R20, R12, R21-
+ffffffffffffeeb8:    0e685594    LWU R20, R12, +R21
+ffffffffffffeebc:    0e6c5594    LWU R20, R12, -R21
+ffffffffffffeec0:    de2002b4    VS.LWU R20, R21
+ffffffffffffeec4:    de34a2b4    VS.LWUS R20, R21, $128
+ffffffffffffeec8:    0d87bd84    LHS R4, $0000000000003dec
+ffffffffffffeecc:    0d89bd84    LHS R4, $ffffffffffffcdec
+ffffffffffffeed0:    0da002b4    LHS R20, R21
+ffffffffffffeed4:    0db4a2b4    LHSS R20, R21, $128
+ffffffffffffeed8:    0da4a1f4    LHS R20, PC, $fffffffffffff004
+ffffffffffffeedc:    0da8a1f4    LHS R20, PC, $ffffffffffffed08
+ffffffffffffeee0:    0dc05594    LHS R20, R12, R21
+ffffffffffffeee4:    0dcbd594    LHS R20, R12, R21 << 23
+ffffffffffffeee8:    0de05594    LHS R20, R12, R21+
+ffffffffffffeeec:    0de45594    LHS R20, R12, R21-
+ffffffffffffeef0:    0de85594    LHS R20, R12, +R21
+ffffffffffffeef4:    0dec5594    LHS R20, R12, -R21
+ffffffffffffeef8:    cda002b4    VC.LHS R20, R21
+ffffffffffffeefc:    cdb4a2b4    VC.LHSS R20, R21, $128
+ffffffffffffef00:    0d07bd84    LHU R4, $0000000000003dec
+ffffffffffffef04:    0d09bd84    LHU R4, $ffffffffffffcdec
+ffffffffffffef08:    0d2002b4    LHU R20, R21
+ffffffffffffef0c:    0d34a2b4    LHUS R20, R21, $128
+ffffffffffffef10:    0d24a1f4    LHU R20, PC, $fffffffffffff03c
+ffffffffffffef14:    0d28a1f4    LHU R20, PC, $ffffffffffffed40
+ffffffffffffef18:    0d405594    LHU R20, R12, R21
+ffffffffffffef1c:    0d4bd594    LHU R20, R12, R21 << 23
+ffffffffffffef20:    0d605594    LHU R20, R12, R21+
+ffffffffffffef24:    0d645594    LHU R20, R12, R21-
+ffffffffffffef28:    0d685594    LHU R20, R12, +R21
+ffffffffffffef2c:    0d6c5594    LHU R20, R12, -R21
+ffffffffffffef30:    bd2002b4    HI.LHU R20, R21
+ffffffffffffef34:    bd34a2b4    HI.LHUS R20, R21, $128
+ffffffffffffef38:    0c87bd84    LBS R4, $0000000000003dec
+ffffffffffffef3c:    0c89bd84    LBS R4, $ffffffffffffcdec
+ffffffffffffef40:    0ca002b4    LBS R20, R21
+ffffffffffffef44:    0cb4a2b4    LBSS R20, R21, $128
+ffffffffffffef48:    0ca4a1f4    LBS R20, PC, $fffffffffffff074
+ffffffffffffef4c:    0ca8a1f4    LBS R20, PC, $ffffffffffffed78
+ffffffffffffef50:    0cc05594    LBS R20, R12, R21
+ffffffffffffef54:    0ccbd594    LBS R20, R12, R21 << 23
+ffffffffffffef58:    0ce05594    LBS R20, R12, R21+
+ffffffffffffef5c:    0ce45594    LBS R20, R12, R21-
+ffffffffffffef60:    0ce85594    LBS R20, R12, +R21
+ffffffffffffef64:    0cec5594    LBS R20, R12, -R21
+ffffffffffffef68:    aca002b4    LQ.LBS R20, R21
+ffffffffffffef6c:    acb4a2b4    LQ.LBSS R20, R21, $128
+ffffffffffffef70:    0c07bd84    LBU R4, $0000000000003dec
+ffffffffffffef74:    0c09bd84    LBU R4, $ffffffffffffcdec
+ffffffffffffef78:    0c2002b4    LBU R20, R21
+ffffffffffffef7c:    0c34a2b4    LBUS R20, R21, $128
+ffffffffffffef80:    0c24a1f4    LBU R20, PC, $fffffffffffff0ac
+ffffffffffffef84:    0c28a1f4    LBU R20, PC, $ffffffffffffedb0
+ffffffffffffef88:    0c405594    LBU R20, R12, R21
+ffffffffffffef8c:    0c4bd594    LBU R20, R12, R21 << 23
+ffffffffffffef90:    0c605594    LBU R20, R12, R21+
+ffffffffffffef94:    0c645594    LBU R20, R12, R21-
+ffffffffffffef98:    0c685594    LBU R20, R12, +R21
+ffffffffffffef9c:    0c6c5594    LBU R20, R12, -R21
+ffffffffffffefa0:    9c2002b4    GE.LBU R20, R21
+ffffffffffffefa4:    9c34a2b4    GE.LBUS R20, R21, $128
+ffffffffffffefa8:    0b07bd84    STD R4, $0000000000003dec
+ffffffffffffefac:    0b09bd84    STD R4, $ffffffffffffcdec
+ffffffffffffefb0:    0b2002b4    STD R20, R21
+ffffffffffffefb4:    0b34a2b4    STDS R20, R21, $128
+ffffffffffffefb8:    0b24a1f4    STD R20, PC, $fffffffffffff0e4
+ffffffffffffefbc:    0b28a1f4    STD R20, PC, $ffffffffffffede8
+ffffffffffffefc0:    0b405594    STD R20, R12, R21
+ffffffffffffefc4:    0b4bd594    STD R20, R12, R21 << 23
+ffffffffffffefc8:    0b605594    STD R20, R12, R21+
+ffffffffffffefcc:    0b645594    STD R20, R12, R21-
+ffffffffffffefd0:    0b685594    STD R20, R12, +R21
+ffffffffffffefd4:    0b6c5594    STD R20, R12, -R21
+ffffffffffffefd8:    8b2002b4    LT.STD R20, R21
+ffffffffffffefdc:    8b34a2b4    LT.STDS R20, R21, $128
+ffffffffffffefe0:    0a87bd84    STW R4, $0000000000003dec
+ffffffffffffefe4:    0a89bd84    STW R4, $ffffffffffffcdec
+ffffffffffffefe8:    0aa002b4    STW R20, R21
+ffffffffffffefec:    0ab4a2b4    STWS R20, R21, $128
+ffffffffffffeff0:    0aa4a1f4    STW R20, PC, $fffffffffffff11c
+ffffffffffffeff4:    0aa8a1f4    STW R20, PC, $ffffffffffffee20
+ffffffffffffeff8:    0ac05594    STW R20, R12, R21
+ffffffffffffeffc:    0acbd594    STW R20, R12, R21 << 23
+fffffffffffff000:    0ae05594    STW R20, R12, R21+
+fffffffffffff004:    0ae45594    STW R20, R12, R21-
+fffffffffffff008:    0ae85594    STW R20, R12, +R21
+fffffffffffff00c:    0aec5594    STW R20, R12, -R21
+fffffffffffff010:    7aa002b4    GT.STW R20, R21
+fffffffffffff014:    7ab4a2b4    GT.STWS R20, R21, $128
+fffffffffffff018:    0a07bd84    STW R4, $0000000000003dec
+fffffffffffff01c:    0a09bd84    STW R4, $ffffffffffffcdec
+fffffffffffff020:    0a2002b4    STW R20, R21
+fffffffffffff024:    0a34a2b4    STWS R20, R21, $128
+fffffffffffff028:    0a24a1f4    STW R20, PC, $fffffffffffff154
+fffffffffffff02c:    0a28a1f4    STW R20, PC, $ffffffffffffee58
+fffffffffffff030:    0a405594    STW R20, R12, R21
+fffffffffffff034:    0a4bd594    STW R20, R12, R21 << 23
+fffffffffffff038:    0a605594    STW R20, R12, R21+
+fffffffffffff03c:    0a645594    STW R20, R12, R21-
+fffffffffffff040:    0a685594    STW R20, R12, +R21
+fffffffffffff044:    0a6c5594    STW R20, R12, -R21
+fffffffffffff048:    6a2002b4    LE.STW R20, R21
+fffffffffffff04c:    6a34a2b4    LE.STWS R20, R21, $128
+fffffffffffff050:    0987bd84    STH R4, $0000000000003dec
+fffffffffffff054:    0989bd84    STH R4, $ffffffffffffcdec
+fffffffffffff058:    09a002b4    STH R20, R21
+fffffffffffff05c:    09b4a2b4    STHS R20, R21, $128
+fffffffffffff060:    09a4a1f4    STH R20, PC, $fffffffffffff18c
+fffffffffffff064:    09a8a1f4    STH R20, PC, $ffffffffffffee90
+fffffffffffff068:    09c05594    STH R20, R12, R21
+fffffffffffff06c:    09cbd594    STH R20, R12, R21 << 23
+fffffffffffff070:    09e05594    STH R20, R12, R21+
+fffffffffffff074:    09e45594    STH R20, R12, R21-
+fffffffffffff078:    09e85594    STH R20, R12, +R21
+fffffffffffff07c:    09ec5594    STH R20, R12, -R21
+fffffffffffff080:    59a002b4    EQ.STH R20, R21
+fffffffffffff084:    59b4a2b4    EQ.STHS R20, R21, $128
+fffffffffffff088:    0907bd84    STH R4, $0000000000003dec
+fffffffffffff08c:    0909bd84    STH R4, $ffffffffffffcdec
+fffffffffffff090:    092002b4    STH R20, R21
+fffffffffffff094:    0934a2b4    STHS R20, R21, $128
+fffffffffffff098:    0924a1f4    STH R20, PC, $fffffffffffff1c4
+fffffffffffff09c:    0928a1f4    STH R20, PC, $ffffffffffffeec8
+fffffffffffff0a0:    09405594    STH R20, R12, R21
+fffffffffffff0a4:    094bd594    STH R20, R12, R21 << 23
+fffffffffffff0a8:    09605594    STH R20, R12, R21+
+fffffffffffff0ac:    09645594    STH R20, R12, R21-
+fffffffffffff0b0:    09685594    STH R20, R12, +R21
+fffffffffffff0b4:    096c5594    STH R20, R12, -R21
+fffffffffffff0b8:    492002b4    NE.STH R20, R21
+fffffffffffff0bc:    4934a2b4    NE.STHS R20, R21, $128
+fffffffffffff0c0:    0887bd84    STB R4, $0000000000003dec
+fffffffffffff0c4:    0889bd84    STB R4, $ffffffffffffcdec
+fffffffffffff0c8:    08a002b4    STB R20, R21
+fffffffffffff0cc:    08b4a2b4    STBS R20, R21, $128
+fffffffffffff0d0:    08a4a1f4    STB R20, PC, $fffffffffffff1fc
+fffffffffffff0d4:    08a8a1f4    STB R20, PC, $ffffffffffffef00
+fffffffffffff0d8:    08c05594    STB R20, R12, R21
+fffffffffffff0dc:    08cbd594    STB R20, R12, R21 << 23
+fffffffffffff0e0:    08e05594    STB R20, R12, R21+
+fffffffffffff0e4:    08e45594    STB R20, R12, R21-
+fffffffffffff0e8:    08e85594    STB R20, R12, +R21
+fffffffffffff0ec:    08ec5594    STB R20, R12, -R21
+fffffffffffff0f0:    38a002b4    CS.STB R20, R21
+fffffffffffff0f4:    38b4a2b4    CS.STBS R20, R21, $128
+fffffffffffff0f8:    0807bd84    STB R4, $0000000000003dec
+fffffffffffff0fc:    0809bd84    STB R4, $ffffffffffffcdec
+fffffffffffff100:    082002b4    STB R20, R21
+fffffffffffff104:    0834a2b4    STBS R20, R21, $128
+fffffffffffff108:    0824a1f4    STB R20, PC, $fffffffffffff234
+fffffffffffff10c:    0828a1f4    STB R20, PC, $ffffffffffffef38
+fffffffffffff110:    08405594    STB R20, R12, R21
+fffffffffffff114:    084bd594    STB R20, R12, R21 << 23
+fffffffffffff118:    08605594    STB R20, R12, R21+
+fffffffffffff11c:    08645594    STB R20, R12, R21-
+fffffffffffff120:    08685594    STB R20, R12, +R21
+fffffffffffff124:    086c5594    STB R20, R12, -R21
+fffffffffffff128:    282002b4    CC.STB R20, R21
+fffffffffffff12c:    2834a2b4    CC.STBS R20, R21, $128
+fffffffffffff130:    0f87bd84    LLD R4, $0000000000003dec
+fffffffffffff134:    0f89bd84    LLD R4, $ffffffffffffcdec
+fffffffffffff138:    0fa002b4    LLD R20, R21
+fffffffffffff13c:    0fb4a2b4    LLDS R20, R21, $128
+fffffffffffff140:    0fa4a1f4    LLD R20, PC, $fffffffffffff26c
+fffffffffffff144:    0fa8a1f4    LLD R20, PC, $ffffffffffffef70
+fffffffffffff148:    0fc05594    LLD R20, R12, R21
+fffffffffffff14c:    0fcbd594    LLD R20, R12, R21 << 23
+fffffffffffff150:    0fe05594    LLD R20, R12, R21+
+fffffffffffff154:    0fe45594    LLD R20, R12, R21-
+fffffffffffff158:    0fe85594    LLD R20, R12, +R21
+fffffffffffff15c:    0fec5594    LLD R20, R12, -R21
+fffffffffffff160:    1fa002b4    ILG
+fffffffffffff164:    1fb4a2b4    ILG
+fffffffffffff168:    0b87bd84    SCD R4, $0000000000003dec
+fffffffffffff16c:    0b89bd84    SCD R4, $ffffffffffffcdec
+fffffffffffff170:    0ba002b4    SCD R20, R21
+fffffffffffff174:    0bb4a2b4    SCDS R20, R21, $128
+fffffffffffff178:    0ba4a1f4    SCD R20, PC, $fffffffffffff2a4
+fffffffffffff17c:    0ba8a1f4    SCD R20, PC, $ffffffffffffefa8
+fffffffffffff180:    0bc05594    SCD R20, R12, R21
+fffffffffffff184:    0bcbd594    SCD R20, R12, R21 << 23
+fffffffffffff188:    0be05594    SCD R20, R12, R21+
+fffffffffffff18c:    0be45594    SCD R20, R12, R21-
+fffffffffffff190:    0be85594    SCD R20, R12, +R21
+fffffffffffff194:    0bec5594    SCD R20, R12, -R21
+fffffffffffff198:    06012340    BAL R0, $0000000000002468
+fffffffffffff19c:    06042340    BAL R0, $ffffffffffff8468
+fffffffffffff1a0:    00605e7b    ADD R27, R19, #$017 ; 23 in decimal
+fffffffffffff1a4:    0063fe7b    ADD R27, R19, #$0ff ; 255 in decimal
+fffffffffffff1a8:    0067fe7b    ADD R27, R19, #$1ff ; -1 in decimal
+fffffffffffff1ac:    0064027b    ADD R27, R19, #$100 ; -256 in decimal
+fffffffffffff1b0:    006845d3    ADD R19, R14, R17
+fffffffffffff1b4:    006e45d3    ADD R19, R14, R17 << 12
+fffffffffffff1b8:    00684673    ADD R19, R17
+fffffffffffff1bc:    006ec673    ADD R19, R17 << 13
+fffffffffffff1c0:    00605e73    ADD R19, #$017 ; 23 in decimal
+fffffffffffff1c4:    f0605e7b    MI.ADD R27, R19, #$017 ; 23 in decimal
+fffffffffffff1c8:    00705e7b    ADDS R27, R19, #$017 ; 23 in decimal
+fffffffffffff1cc:    0073fe7b    ADDS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff1d0:    0077fe7b    ADDS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff1d4:    0074027b    ADDS R27, R19, #$100 ; -256 in decimal
+fffffffffffff1d8:    007845d3    ADDS R19, R14, R17
+fffffffffffff1dc:    007e45d3    ADDS R19, R14, R17 << 12
+fffffffffffff1e0:    00784673    ADDS R19, R17
+fffffffffffff1e4:    007ec673    ADDS R19, R17 << 13
+fffffffffffff1e8:    00705e73    ADDS R19, #$017 ; 23 in decimal
+fffffffffffff1ec:    f0705e7b    MI.ADDS R27, R19, #$017 ; 23 in decimal
+fffffffffffff1f0:    00e05e7b    SUB R27, R19, #$017 ; 23 in decimal
+fffffffffffff1f4:    00e3fe7b    SUB R27, R19, #$0ff ; 255 in decimal
+fffffffffffff1f8:    00e7fe7b    SUB R27, R19, #$1ff ; -1 in decimal
+fffffffffffff1fc:    00e4027b    SUB R27, R19, #$100 ; -256 in decimal
+fffffffffffff200:    00e845d3    SUB R19, R14, R17
+fffffffffffff204:    00ee45d3    SUB R19, R14, R17 << 12
+fffffffffffff208:    00e84673    SUB R19, R17
+fffffffffffff20c:    00eec673    SUB R19, R17 << 13
+fffffffffffff210:    00e05e73    SUB R19, #$017 ; 23 in decimal
+fffffffffffff214:    e0e05e7b    PL.SUB R27, R19, #$017 ; 23 in decimal
+fffffffffffff218:    00f05e7b    SUBS R27, R19, #$017 ; 23 in decimal
+fffffffffffff21c:    00f3fe7b    SUBS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff220:    00f7fe7b    SUBS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff224:    00f4027b    SUBS R27, R19, #$100 ; -256 in decimal
+fffffffffffff228:    00f845d3    SUBS R19, R14, R17
+fffffffffffff22c:    00fe45d3    SUBS R19, R14, R17 << 12
+fffffffffffff230:    00f84673    SUBS R19, R17
+fffffffffffff234:    00fec673    SUBS R19, R17 << 13
+fffffffffffff238:    00f05e73    SUBS R19, #$017 ; 23 in decimal
+fffffffffffff23c:    e0f05e7b    PL.SUBS R27, R19, #$017 ; 23 in decimal
+fffffffffffff240:    04605e7b    AND R27, R19, #$017 ; 23 in decimal
+fffffffffffff244:    0463fe7b    AND R27, R19, #$0ff ; 255 in decimal
+fffffffffffff248:    0467fe7b    AND R27, R19, #$1ff ; -1 in decimal
+fffffffffffff24c:    0464027b    AND R27, R19, #$100 ; -256 in decimal
+fffffffffffff250:    046845d3    AND R19, R14, R17
+fffffffffffff254:    046e45d3    AND R19, R14, R17 << 12
+fffffffffffff258:    04684673    AND R19, R17
+fffffffffffff25c:    046ec673    AND R19, R17 << 13
+fffffffffffff260:    04605e73    AND R19, #$017 ; 23 in decimal
+fffffffffffff264:    d4605e7b    VS.AND R27, R19, #$017 ; 23 in decimal
+fffffffffffff268:    04705e7b    ANDS R27, R19, #$017 ; 23 in decimal
+fffffffffffff26c:    0473fe7b    ANDS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff270:    0477fe7b    ANDS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff274:    0474027b    ANDS R27, R19, #$100 ; -256 in decimal
+fffffffffffff278:    047845d3    ANDS R19, R14, R17
+fffffffffffff27c:    047e45d3    ANDS R19, R14, R17 << 12
+fffffffffffff280:    04784673    ANDS R19, R17
+fffffffffffff284:    047ec673    ANDS R19, R17 << 13
+fffffffffffff288:    04705e73    ANDS R19, #$017 ; 23 in decimal
+fffffffffffff28c:    d4705e7b    VS.ANDS R27, R19, #$017 ; 23 in decimal
+fffffffffffff290:    04e05e7b    ORR R27, R19, #$017 ; 23 in decimal
+fffffffffffff294:    04e3fe7b    ORR R27, R19, #$0ff ; 255 in decimal
+fffffffffffff298:    04e7fe7b    ORR R27, R19, #$1ff ; -1 in decimal
+fffffffffffff29c:    04e4027b    ORR R27, R19, #$100 ; -256 in decimal
+fffffffffffff2a0:    04e845d3    ORR R19, R14, R17
+fffffffffffff2a4:    04ee45d3    ORR R19, R14, R17 << 12
+fffffffffffff2a8:    04e84673    ORR R19, R17
+fffffffffffff2ac:    04eec673    ORR R19, R17 << 13
+fffffffffffff2b0:    04e05e73    ORR R19, #$017 ; 23 in decimal
+fffffffffffff2b4:    c4e05e7b    VC.ORR R27, R19, #$017 ; 23 in decimal
+fffffffffffff2b8:    04f05e7b    ORRS R27, R19, #$017 ; 23 in decimal
+fffffffffffff2bc:    04f3fe7b    ORRS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff2c0:    04f7fe7b    ORRS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff2c4:    04f4027b    ORRS R27, R19, #$100 ; -256 in decimal
+fffffffffffff2c8:    04f845d3    ORRS R19, R14, R17
+fffffffffffff2cc:    04fe45d3    ORRS R19, R14, R17 << 12
+fffffffffffff2d0:    04f84673    ORRS R19, R17
+fffffffffffff2d4:    04fec673    ORRS R19, R17 << 13
+fffffffffffff2d8:    04f05e73    ORRS R19, #$017 ; 23 in decimal
+fffffffffffff2dc:    c4f05e7b    VC.ORRS R27, R19, #$017 ; 23 in decimal
+fffffffffffff2e0:    05605e7b    EOR R27, R19, #$017 ; 23 in decimal
+fffffffffffff2e4:    0563fe7b    EOR R27, R19, #$0ff ; 255 in decimal
+fffffffffffff2e8:    0567fe7b    EOR R27, R19, #$1ff ; -1 in decimal
+fffffffffffff2ec:    0564027b    EOR R27, R19, #$100 ; -256 in decimal
+fffffffffffff2f0:    056845d3    EOR R19, R14, R17
+fffffffffffff2f4:    056e45d3    EOR R19, R14, R17 << 12
+fffffffffffff2f8:    05684673    EOR R19, R17
+fffffffffffff2fc:    056ec673    EOR R19, R17 << 13
+fffffffffffff300:    05605e73    EOR R19, #$017 ; 23 in decimal
+fffffffffffff304:    b5605e7b    HI.EOR R27, R19, #$017 ; 23 in decimal
+fffffffffffff308:    05705e7b    EORS R27, R19, #$017 ; 23 in decimal
+fffffffffffff30c:    0573fe7b    EORS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff310:    0577fe7b    EORS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff314:    0574027b    EORS R27, R19, #$100 ; -256 in decimal
+fffffffffffff318:    057845d3    EORS R19, R14, R17
+fffffffffffff31c:    057e45d3    EORS R19, R14, R17 << 12
+fffffffffffff320:    05784673    EORS R19, R17
+fffffffffffff324:    057ec673    EORS R19, R17 << 13
+fffffffffffff328:    05705e73    EORS R19, #$017 ; 23 in decimal
+fffffffffffff32c:    b5705e7b    HI.EORS R27, R19, #$017 ; 23 in decimal
+fffffffffffff330:    01605e7b    ASL R27, R19, #$017 ; 23 in decimal
+fffffffffffff334:    0163fe7b    ASL R27, R19, #$0ff ; 255 in decimal
+fffffffffffff338:    0167fe7b    ASL R27, R19, #$1ff ; -1 in decimal
+fffffffffffff33c:    0164027b    ASL R27, R19, #$100 ; -256 in decimal
+fffffffffffff340:    016845d3    ASL R19, R14, R17
+fffffffffffff344:    016e45d3    ASL R19, R14, R17 << 12
+fffffffffffff348:    01684673    ASL R19, R17
+fffffffffffff34c:    016ec673    ASL R19, R17 << 13
+fffffffffffff350:    01605e73    ASL R19, #$017 ; 23 in decimal
+fffffffffffff354:    a1605e7b    LQ.ASL R27, R19, #$017 ; 23 in decimal
+fffffffffffff358:    01705e7b    ASLS R27, R19, #$017 ; 23 in decimal
+fffffffffffff35c:    0173fe7b    ASLS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff360:    0177fe7b    ASLS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff364:    0174027b    ASLS R27, R19, #$100 ; -256 in decimal
+fffffffffffff368:    017845d3    ASLS R19, R14, R17
+fffffffffffff36c:    017e45d3    ASLS R19, R14, R17 << 12
+fffffffffffff370:    01784673    ASLS R19, R17
+fffffffffffff374:    017ec673    ASLS R19, R17 << 13
+fffffffffffff378:    01705e73    ASLS R19, #$017 ; 23 in decimal
+fffffffffffff37c:    a1705e7b    LQ.ASLS R27, R19, #$017 ; 23 in decimal
+fffffffffffff380:    02605e7b    LSR R27, R19, #$017 ; 23 in decimal
+fffffffffffff384:    0263fe7b    LSR R27, R19, #$0ff ; 255 in decimal
+fffffffffffff388:    0267fe7b    LSR R27, R19, #$1ff ; -1 in decimal
+fffffffffffff38c:    0264027b    LSR R27, R19, #$100 ; -256 in decimal
+fffffffffffff390:    026845d3    LSR R19, R14, R17
+fffffffffffff394:    026e45d3    LSR R19, R14, R17 << 12
+fffffffffffff398:    02684673    LSR R19, R17
+fffffffffffff39c:    026ec673    LSR R19, R17 << 13
+fffffffffffff3a0:    02605e73    LSR R19, #$017 ; 23 in decimal
+fffffffffffff3a4:    92605e7b    GE.LSR R27, R19, #$017 ; 23 in decimal
+fffffffffffff3a8:    02705e7b    LSRS R27, R19, #$017 ; 23 in decimal
+fffffffffffff3ac:    0273fe7b    LSRS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff3b0:    0277fe7b    LSRS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff3b4:    0274027b    LSRS R27, R19, #$100 ; -256 in decimal
+fffffffffffff3b8:    027845d3    LSRS R19, R14, R17
+fffffffffffff3bc:    027e45d3    LSRS R19, R14, R17 << 12
+fffffffffffff3c0:    02784673    LSRS R19, R17
+fffffffffffff3c4:    027ec673    LSRS R19, R17 << 13
+fffffffffffff3c8:    02705e73    LSRS R19, #$017 ; 23 in decimal
+fffffffffffff3cc:    92705e7b    GE.LSRS R27, R19, #$017 ; 23 in decimal
+fffffffffffff3d0:    01e05e7b    ASR R27, R19, #$017 ; 23 in decimal
+fffffffffffff3d4:    01e3fe7b    ASR R27, R19, #$0ff ; 255 in decimal
+fffffffffffff3d8:    01e7fe7b    ASR R27, R19, #$1ff ; -1 in decimal
+fffffffffffff3dc:    01e4027b    ASR R27, R19, #$100 ; -256 in decimal
+fffffffffffff3e0:    01e845d3    ASR R19, R14, R17
+fffffffffffff3e4:    01ee45d3    ASR R19, R14, R17 << 12
+fffffffffffff3e8:    01e84673    ASR R19, R17
+fffffffffffff3ec:    01eec673    ASR R19, R17 << 13
+fffffffffffff3f0:    01e05e73    ASR R19, #$017 ; 23 in decimal
+fffffffffffff3f4:    81e05e7b    LT.ASR R27, R19, #$017 ; 23 in decimal
+fffffffffffff3f8:    01f05e7b    ASRS R27, R19, #$017 ; 23 in decimal
+fffffffffffff3fc:    01f3fe7b    ASRS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff400:    01f7fe7b    ASRS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff404:    01f4027b    ASRS R27, R19, #$100 ; -256 in decimal
+fffffffffffff408:    01f845d3    ASRS R19, R14, R17
+fffffffffffff40c:    01fe45d3    ASRS R19, R14, R17 << 12
+fffffffffffff410:    01f84673    ASRS R19, R17
+fffffffffffff414:    01fec673    ASRS R19, R17 << 13
+fffffffffffff418:    01f05e73    ASRS R19, #$017 ; 23 in decimal
+fffffffffffff41c:    81f05e7b    LT.ASRS R27, R19, #$017 ; 23 in decimal
+fffffffffffff420:    03605e7b    ROL R27, R19, #$017 ; 23 in decimal
+fffffffffffff424:    0363fe7b    ROL R27, R19, #$0ff ; 255 in decimal
+fffffffffffff428:    0367fe7b    ROL R27, R19, #$1ff ; -1 in decimal
+fffffffffffff42c:    0364027b    ROL R27, R19, #$100 ; -256 in decimal
+fffffffffffff430:    036845d3    ROL R19, R14, R17
+fffffffffffff434:    036e45d3    ROL R19, R14, R17 << 12
+fffffffffffff438:    03684673    ROL R19, R17
+fffffffffffff43c:    036ec673    ROL R19, R17 << 13
+fffffffffffff440:    03605e73    ROL R19, #$017 ; 23 in decimal
+fffffffffffff444:    73605e7b    GT.ROL R27, R19, #$017 ; 23 in decimal
+fffffffffffff448:    03705e7b    ROLS R27, R19, #$017 ; 23 in decimal
+fffffffffffff44c:    0373fe7b    ROLS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff450:    0377fe7b    ROLS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff454:    0374027b    ROLS R27, R19, #$100 ; -256 in decimal
+fffffffffffff458:    037845d3    ROLS R19, R14, R17
+fffffffffffff45c:    037e45d3    ROLS R19, R14, R17 << 12
+fffffffffffff460:    03784673    ROLS R19, R17
+fffffffffffff464:    037ec673    ROLS R19, R17 << 13
+fffffffffffff468:    03705e73    ROLS R19, #$017 ; 23 in decimal
+fffffffffffff46c:    73705e7b    GT.ROLS R27, R19, #$017 ; 23 in decimal
+fffffffffffff470:    02e05e7b    ROR R27, R19, #$017 ; 23 in decimal
+fffffffffffff474:    02e3fe7b    ROR R27, R19, #$0ff ; 255 in decimal
+fffffffffffff478:    02e7fe7b    ROR R27, R19, #$1ff ; -1 in decimal
+fffffffffffff47c:    02e4027b    ROR R27, R19, #$100 ; -256 in decimal
+fffffffffffff480:    02e845d3    ROR R19, R14, R17
+fffffffffffff484:    02ee45d3    ROR R19, R14, R17 << 12
+fffffffffffff488:    02e84673    ROR R19, R17
+fffffffffffff48c:    02eec673    ROR R19, R17 << 13
+fffffffffffff490:    02e05e73    ROR R19, #$017 ; 23 in decimal
+fffffffffffff494:    62e05e7b    LE.ROR R27, R19, #$017 ; 23 in decimal
+fffffffffffff498:    02f05e7b    RORS R27, R19, #$017 ; 23 in decimal
+fffffffffffff49c:    02f3fe7b    RORS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff4a0:    02f7fe7b    RORS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff4a4:    02f4027b    RORS R27, R19, #$100 ; -256 in decimal
+fffffffffffff4a8:    02f845d3    RORS R19, R14, R17
+fffffffffffff4ac:    02fe45d3    RORS R19, R14, R17 << 12
+fffffffffffff4b0:    02f84673    RORS R19, R17
+fffffffffffff4b4:    02fec673    RORS R19, R17 << 13
+fffffffffffff4b8:    02f05e73    RORS R19, #$017 ; 23 in decimal
+fffffffffffff4bc:    62f05e7b    LE.RORS R27, R19, #$017 ; 23 in decimal
+fffffffffffff4c0:    05e05e7b    MUL R27, R19, #$017 ; 23 in decimal
+fffffffffffff4c4:    05e3fe7b    MUL R27, R19, #$0ff ; 255 in decimal
+fffffffffffff4c8:    05e7fe7b    MUL R27, R19, #$1ff ; -1 in decimal
+fffffffffffff4cc:    05e4027b    MUL R27, R19, #$100 ; -256 in decimal
+fffffffffffff4d0:    05e845d3    MUL R19, R14, R17
+fffffffffffff4d4:    05ee45d3    MUL R19, R14, R17 << 12
+fffffffffffff4d8:    05e84673    MUL R19, R17
+fffffffffffff4dc:    05eec673    MUL R19, R17 << 13
+fffffffffffff4e0:    05e05e73    MUL R19, #$017 ; 23 in decimal
+fffffffffffff4e4:    55e05e7b    EQ.MUL R27, R19, #$017 ; 23 in decimal
+fffffffffffff4e8:    05f05e7b    MULS R27, R19, #$017 ; 23 in decimal
+fffffffffffff4ec:    05f3fe7b    MULS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff4f0:    05f7fe7b    MULS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff4f4:    05f4027b    MULS R27, R19, #$100 ; -256 in decimal
+fffffffffffff4f8:    05f845d3    MULS R19, R14, R17
+fffffffffffff4fc:    05fe45d3    MULS R19, R14, R17 << 12
+fffffffffffff500:    05f84673    MULS R19, R17
+fffffffffffff504:    05fec673    MULS R19, R17 << 13
+fffffffffffff508:    05f05e73    MULS R19, #$017 ; 23 in decimal
+fffffffffffff50c:    55f05e7b    EQ.MULS R27, R19, #$017 ; 23 in decimal
+fffffffffffff510:    03805e7b    ADC R27, R19, #$017 ; 23 in decimal
+fffffffffffff514:    0383fe7b    ADC R27, R19, #$0ff ; 255 in decimal
+fffffffffffff518:    0387fe7b    ADC R27, R19, #$1ff ; -1 in decimal
+fffffffffffff51c:    0384027b    ADC R27, R19, #$100 ; -256 in decimal
+fffffffffffff520:    038845d3    ADC R19, R14, R17
+fffffffffffff524:    038e45d3    ADC R19, R14, R17 << 12
+fffffffffffff528:    03884673    ADC R19, R17
+fffffffffffff52c:    038ec673    ADC R19, R17 << 13
+fffffffffffff530:    03805e73    ADC R19, #$017 ; 23 in decimal
+fffffffffffff534:    43805e7b    NE.ADC R27, R19, #$017 ; 23 in decimal
+fffffffffffff538:    03905e7b    ADCS R27, R19, #$017 ; 23 in decimal
+fffffffffffff53c:    0393fe7b    ADCS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff540:    0397fe7b    ADCS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff544:    0394027b    ADCS R27, R19, #$100 ; -256 in decimal
+fffffffffffff548:    039845d3    ADCS R19, R14, R17
+fffffffffffff54c:    039e45d3    ADCS R19, R14, R17 << 12
+fffffffffffff550:    03984673    ADCS R19, R17
+fffffffffffff554:    039ec673    ADCS R19, R17 << 13
+fffffffffffff558:    03905e73    ADCS R19, #$017 ; 23 in decimal
+fffffffffffff55c:    43905e7b    NE.ADCS R27, R19, #$017 ; 23 in decimal
+fffffffffffff560:    03a05e7b    SBC R27, R19, #$017 ; 23 in decimal
+fffffffffffff564:    03a3fe7b    SBC R27, R19, #$0ff ; 255 in decimal
+fffffffffffff568:    03a7fe7b    SBC R27, R19, #$1ff ; -1 in decimal
+fffffffffffff56c:    03a4027b    SBC R27, R19, #$100 ; -256 in decimal
+fffffffffffff570:    03a845d3    SBC R19, R14, R17
+fffffffffffff574:    03ae45d3    SBC R19, R14, R17 << 12
+fffffffffffff578:    03a84673    SBC R19, R17
+fffffffffffff57c:    03aec673    SBC R19, R17 << 13
+fffffffffffff580:    03a05e73    SBC R19, #$017 ; 23 in decimal
+fffffffffffff584:    33a05e7b    CS.SBC R27, R19, #$017 ; 23 in decimal
+fffffffffffff588:    03b05e7b    SBCS R27, R19, #$017 ; 23 in decimal
+fffffffffffff58c:    03b3fe7b    SBCS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff590:    03b7fe7b    SBCS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff594:    03b4027b    SBCS R27, R19, #$100 ; -256 in decimal
+fffffffffffff598:    03b845d3    SBCS R19, R14, R17
+fffffffffffff59c:    03be45d3    SBCS R19, R14, R17 << 12
+fffffffffffff5a0:    03b84673    SBCS R19, R17
+fffffffffffff5a4:    03bec673    SBCS R19, R17 << 13
+fffffffffffff5a8:    03b05e73    SBCS R19, #$017 ; 23 in decimal
+fffffffffffff5ac:    33b05e7b    CS.SBCS R27, R19, #$017 ; 23 in decimal
+fffffffffffff5b0:    03e05e7b    RLC R27, R19, #$017 ; 23 in decimal
+fffffffffffff5b4:    03e3fe7b    RLC R27, R19, #$0ff ; 255 in decimal
+fffffffffffff5b8:    03e7fe7b    RLC R27, R19, #$1ff ; -1 in decimal
+fffffffffffff5bc:    03e4027b    RLC R27, R19, #$100 ; -256 in decimal
+fffffffffffff5c0:    03e845d3    RLC R19, R14, R17
+fffffffffffff5c4:    03ee45d3    RLC R19, R14, R17 << 12
+fffffffffffff5c8:    03e84673    RLC R19, R17
+fffffffffffff5cc:    03eec673    RLC R19, R17 << 13
+fffffffffffff5d0:    03e05e73    RLC R19, #$017 ; 23 in decimal
+fffffffffffff5d4:    23e05e7b    CC.RLC R27, R19, #$017 ; 23 in decimal
+fffffffffffff5d8:    03f05e7b    RLCS R27, R19, #$017 ; 23 in decimal
+fffffffffffff5dc:    03f3fe7b    RLCS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff5e0:    03f7fe7b    RLCS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff5e4:    03f4027b    RLCS R27, R19, #$100 ; -256 in decimal
+fffffffffffff5e8:    03f845d3    RLCS R19, R14, R17
+fffffffffffff5ec:    03fe45d3    RLCS R19, R14, R17 << 12
+fffffffffffff5f0:    03f84673    RLCS R19, R17
+fffffffffffff5f4:    03fec673    RLCS R19, R17 << 13
+fffffffffffff5f8:    03f05e73    RLCS R19, #$017 ; 23 in decimal
+fffffffffffff5fc:    23f05e7b    CC.RLCS R27, R19, #$017 ; 23 in decimal
+fffffffffffff600:    03c05e7b    RRC R27, R19, #$017 ; 23 in decimal
+fffffffffffff604:    03c3fe7b    RRC R27, R19, #$0ff ; 255 in decimal
+fffffffffffff608:    03c7fe7b    RRC R27, R19, #$1ff ; -1 in decimal
+fffffffffffff60c:    03c4027b    RRC R27, R19, #$100 ; -256 in decimal
+fffffffffffff610:    03c845d3    RRC R19, R14, R17
+fffffffffffff614:    03ce45d3    RRC R19, R14, R17 << 12
+fffffffffffff618:    03c84673    RRC R19, R17
+fffffffffffff61c:    03cec673    RRC R19, R17 << 13
+fffffffffffff620:    03c05e73    RRC R19, #$017 ; 23 in decimal
+fffffffffffff624:    13c05e7b    ILG
+fffffffffffff628:    03d05e7b    RRCS R27, R19, #$017 ; 23 in decimal
+fffffffffffff62c:    03d3fe7b    RRCS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff630:    03d7fe7b    RRCS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff634:    03d4027b    RRCS R27, R19, #$100 ; -256 in decimal
+fffffffffffff638:    03d845d3    RRCS R19, R14, R17
+fffffffffffff63c:    03de45d3    RRCS R19, R14, R17 << 12
+fffffffffffff640:    03d84673    RRCS R19, R17
+fffffffffffff644:    03dec673    RRCS R19, R17 << 13
+fffffffffffff648:    03d05e73    RRCS R19, #$017 ; 23 in decimal
+fffffffffffff64c:    13d05e7b    ILG
+fffffffffffff650:    00405e7b    ADDW R27, R19, #$017 ; 23 in decimal
+fffffffffffff654:    0043fe7b    ADDW R27, R19, #$0ff ; 255 in decimal
+fffffffffffff658:    0047fe7b    ADDW R27, R19, #$1ff ; -1 in decimal
+fffffffffffff65c:    0044027b    ADDW R27, R19, #$100 ; -256 in decimal
+fffffffffffff660:    004845d3    ADDW R19, R14, R17
+fffffffffffff664:    004e45d3    ADDW R19, R14, R17 << 12
+fffffffffffff668:    00484673    ADDW R19, R17
+fffffffffffff66c:    004ec673    ADDW R19, R17 << 13
+fffffffffffff670:    00405e73    ADDW R19, #$017 ; 23 in decimal
+fffffffffffff674:    f0405e7b    MI.ADDW R27, R19, #$017 ; 23 in decimal
+fffffffffffff678:    00505e7b    ADDWS R27, R19, #$017 ; 23 in decimal
+fffffffffffff67c:    0053fe7b    ADDWS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff680:    0057fe7b    ADDWS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff684:    0054027b    ADDWS R27, R19, #$100 ; -256 in decimal
+fffffffffffff688:    005845d3    ADDWS R19, R14, R17
+fffffffffffff68c:    005e45d3    ADDWS R19, R14, R17 << 12
+fffffffffffff690:    00584673    ADDWS R19, R17
+fffffffffffff694:    005ec673    ADDWS R19, R17 << 13
+fffffffffffff698:    00505e73    ADDWS R19, #$017 ; 23 in decimal
+fffffffffffff69c:    f0505e7b    MI.ADDWS R27, R19, #$017 ; 23 in decimal
+fffffffffffff6a0:    00205e7b    ADDH R27, R19, #$017 ; 23 in decimal
+fffffffffffff6a4:    0023fe7b    ADDH R27, R19, #$0ff ; 255 in decimal
+fffffffffffff6a8:    0027fe7b    ADDH R27, R19, #$1ff ; -1 in decimal
+fffffffffffff6ac:    0024027b    ADDH R27, R19, #$100 ; -256 in decimal
+fffffffffffff6b0:    002845d3    ADDH R19, R14, R17
+fffffffffffff6b4:    002e45d3    ADDH R19, R14, R17 << 12
+fffffffffffff6b8:    00284673    ADDH R19, R17
+fffffffffffff6bc:    002ec673    ADDH R19, R17 << 13
+fffffffffffff6c0:    00205e73    ADDH R19, #$017 ; 23 in decimal
+fffffffffffff6c4:    f0205e7b    MI.ADDH R27, R19, #$017 ; 23 in decimal
+fffffffffffff6c8:    00305e7b    ADDHS R27, R19, #$017 ; 23 in decimal
+fffffffffffff6cc:    0033fe7b    ADDHS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff6d0:    0037fe7b    ADDHS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff6d4:    0034027b    ADDHS R27, R19, #$100 ; -256 in decimal
+fffffffffffff6d8:    003845d3    ADDHS R19, R14, R17
+fffffffffffff6dc:    003e45d3    ADDHS R19, R14, R17 << 12
+fffffffffffff6e0:    00384673    ADDHS R19, R17
+fffffffffffff6e4:    003ec673    ADDHS R19, R17 << 13
+fffffffffffff6e8:    00305e73    ADDHS R19, #$017 ; 23 in decimal
+fffffffffffff6ec:    f0305e7b    MI.ADDHS R27, R19, #$017 ; 23 in decimal
+fffffffffffff6f0:    00005e7b    ADDB R27, R19, #$017 ; 23 in decimal
+fffffffffffff6f4:    0003fe7b    ADDB R27, R19, #$0ff ; 255 in decimal
+fffffffffffff6f8:    0007fe7b    ADDB R27, R19, #$1ff ; -1 in decimal
+fffffffffffff6fc:    0004027b    ADDB R27, R19, #$100 ; -256 in decimal
+fffffffffffff700:    000845d3    ADDB R19, R14, R17
+fffffffffffff704:    000e45d3    ADDB R19, R14, R17 << 12
+fffffffffffff708:    00084673    ADDB R19, R17
+fffffffffffff70c:    000ec673    ADDB R19, R17 << 13
+fffffffffffff710:    00005e73    ADDB R19, #$017 ; 23 in decimal
+fffffffffffff714:    f0005e7b    MI.ADDB R27, R19, #$017 ; 23 in decimal
+fffffffffffff718:    00105e7b    ADDBS R27, R19, #$017 ; 23 in decimal
+fffffffffffff71c:    0013fe7b    ADDBS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff720:    0017fe7b    ADDBS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff724:    0014027b    ADDBS R27, R19, #$100 ; -256 in decimal
+fffffffffffff728:    001845d3    ADDBS R19, R14, R17
+fffffffffffff72c:    001e45d3    ADDBS R19, R14, R17 << 12
+fffffffffffff730:    00184673    ADDBS R19, R17
+fffffffffffff734:    001ec673    ADDBS R19, R17 << 13
+fffffffffffff738:    00105e73    ADDBS R19, #$017 ; 23 in decimal
+fffffffffffff73c:    f0105e7b    MI.ADDBS R27, R19, #$017 ; 23 in decimal
+fffffffffffff740:    00c05e7b    SUBW R27, R19, #$017 ; 23 in decimal
+fffffffffffff744:    00c3fe7b    SUBW R27, R19, #$0ff ; 255 in decimal
+fffffffffffff748:    00c7fe7b    SUBW R27, R19, #$1ff ; -1 in decimal
+fffffffffffff74c:    00c4027b    SUBW R27, R19, #$100 ; -256 in decimal
+fffffffffffff750:    00c845d3    SUBW R19, R14, R17
+fffffffffffff754:    00ce45d3    SUBW R19, R14, R17 << 12
+fffffffffffff758:    00c84673    SUBW R19, R17
+fffffffffffff75c:    00cec673    SUBW R19, R17 << 13
+fffffffffffff760:    00c05e73    SUBW R19, #$017 ; 23 in decimal
+fffffffffffff764:    f0c05e7b    MI.SUBW R27, R19, #$017 ; 23 in decimal
+fffffffffffff768:    00d05e7b    SUBWS R27, R19, #$017 ; 23 in decimal
+fffffffffffff76c:    00d3fe7b    SUBWS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff770:    00d7fe7b    SUBWS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff774:    00d4027b    SUBWS R27, R19, #$100 ; -256 in decimal
+fffffffffffff778:    00d845d3    SUBWS R19, R14, R17
+fffffffffffff77c:    00de45d3    SUBWS R19, R14, R17 << 12
+fffffffffffff780:    00d84673    SUBWS R19, R17
+fffffffffffff784:    00dec673    SUBWS R19, R17 << 13
+fffffffffffff788:    00d05e73    SUBWS R19, #$017 ; 23 in decimal
+fffffffffffff78c:    f0d05e7b    MI.SUBWS R27, R19, #$017 ; 23 in decimal
+fffffffffffff790:    00a05e7b    SUBH R27, R19, #$017 ; 23 in decimal
+fffffffffffff794:    00a3fe7b    SUBH R27, R19, #$0ff ; 255 in decimal
+fffffffffffff798:    00a7fe7b    SUBH R27, R19, #$1ff ; -1 in decimal
+fffffffffffff79c:    00a4027b    SUBH R27, R19, #$100 ; -256 in decimal
+fffffffffffff7a0:    00a845d3    SUBH R19, R14, R17
+fffffffffffff7a4:    00ae45d3    SUBH R19, R14, R17 << 12
+fffffffffffff7a8:    00a84673    SUBH R19, R17
+fffffffffffff7ac:    00aec673    SUBH R19, R17 << 13
+fffffffffffff7b0:    00a05e73    SUBH R19, #$017 ; 23 in decimal
+fffffffffffff7b4:    f0a05e7b    MI.SUBH R27, R19, #$017 ; 23 in decimal
+fffffffffffff7b8:    00b05e7b    SUBHS R27, R19, #$017 ; 23 in decimal
+fffffffffffff7bc:    00b3fe7b    SUBHS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff7c0:    00b7fe7b    SUBHS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff7c4:    00b4027b    SUBHS R27, R19, #$100 ; -256 in decimal
+fffffffffffff7c8:    00b845d3    SUBHS R19, R14, R17
+fffffffffffff7cc:    00be45d3    SUBHS R19, R14, R17 << 12
+fffffffffffff7d0:    00b84673    SUBHS R19, R17
+fffffffffffff7d4:    00bec673    SUBHS R19, R17 << 13
+fffffffffffff7d8:    00b05e73    SUBHS R19, #$017 ; 23 in decimal
+fffffffffffff7dc:    f0b05e7b    MI.SUBHS R27, R19, #$017 ; 23 in decimal
+fffffffffffff7e0:    00805e7b    SUBB R27, R19, #$017 ; 23 in decimal
+fffffffffffff7e4:    0083fe7b    SUBB R27, R19, #$0ff ; 255 in decimal
+fffffffffffff7e8:    0087fe7b    SUBB R27, R19, #$1ff ; -1 in decimal
+fffffffffffff7ec:    0084027b    SUBB R27, R19, #$100 ; -256 in decimal
+fffffffffffff7f0:    008845d3    SUBB R19, R14, R17
+fffffffffffff7f4:    008e45d3    SUBB R19, R14, R17 << 12
+fffffffffffff7f8:    00884673    SUBB R19, R17
+fffffffffffff7fc:    008ec673    SUBB R19, R17 << 13
+fffffffffffff800:    00805e73    SUBB R19, #$017 ; 23 in decimal
+fffffffffffff804:    f0805e7b    MI.SUBB R27, R19, #$017 ; 23 in decimal
+fffffffffffff808:    00905e7b    SUBBS R27, R19, #$017 ; 23 in decimal
+fffffffffffff80c:    0093fe7b    SUBBS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff810:    0097fe7b    SUBBS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff814:    0094027b    SUBBS R27, R19, #$100 ; -256 in decimal
+fffffffffffff818:    009845d3    SUBBS R19, R14, R17
+fffffffffffff81c:    009e45d3    SUBBS R19, R14, R17 << 12
+fffffffffffff820:    00984673    SUBBS R19, R17
+fffffffffffff824:    009ec673    SUBBS R19, R17 << 13
+fffffffffffff828:    00905e73    SUBBS R19, #$017 ; 23 in decimal
+fffffffffffff82c:    f0905e7b    MI.SUBBS R27, R19, #$017 ; 23 in decimal
+fffffffffffff830:    01405e7b    ASLW R27, R19, #$017 ; 23 in decimal
+fffffffffffff834:    0143fe7b    ASLW R27, R19, #$0ff ; 255 in decimal
+fffffffffffff838:    0147fe7b    ASLW R27, R19, #$1ff ; -1 in decimal
+fffffffffffff83c:    0144027b    ASLW R27, R19, #$100 ; -256 in decimal
+fffffffffffff840:    014845d3    ASLW R19, R14, R17
+fffffffffffff844:    014e45d3    ASLW R19, R14, R17 << 12
+fffffffffffff848:    01484673    ASLW R19, R17
+fffffffffffff84c:    014ec673    ASLW R19, R17 << 13
+fffffffffffff850:    01405e73    ASLW R19, #$017 ; 23 in decimal
+fffffffffffff854:    f1405e7b    MI.ASLW R27, R19, #$017 ; 23 in decimal
+fffffffffffff858:    01505e7b    ASLWS R27, R19, #$017 ; 23 in decimal
+fffffffffffff85c:    0153fe7b    ASLWS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff860:    0157fe7b    ASLWS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff864:    0154027b    ASLWS R27, R19, #$100 ; -256 in decimal
+fffffffffffff868:    015845d3    ASLWS R19, R14, R17
+fffffffffffff86c:    015e45d3    ASLWS R19, R14, R17 << 12
+fffffffffffff870:    01584673    ASLWS R19, R17
+fffffffffffff874:    015ec673    ASLWS R19, R17 << 13
+fffffffffffff878:    01505e73    ASLWS R19, #$017 ; 23 in decimal
+fffffffffffff87c:    f1505e7b    MI.ASLWS R27, R19, #$017 ; 23 in decimal
+fffffffffffff880:    01205e7b    ASLH R27, R19, #$017 ; 23 in decimal
+fffffffffffff884:    0123fe7b    ASLH R27, R19, #$0ff ; 255 in decimal
+fffffffffffff888:    0127fe7b    ASLH R27, R19, #$1ff ; -1 in decimal
+fffffffffffff88c:    0124027b    ASLH R27, R19, #$100 ; -256 in decimal
+fffffffffffff890:    012845d3    ASLH R19, R14, R17
+fffffffffffff894:    012e45d3    ASLH R19, R14, R17 << 12
+fffffffffffff898:    01284673    ASLH R19, R17
+fffffffffffff89c:    012ec673    ASLH R19, R17 << 13
+fffffffffffff8a0:    01205e73    ASLH R19, #$017 ; 23 in decimal
+fffffffffffff8a4:    f1205e7b    MI.ASLH R27, R19, #$017 ; 23 in decimal
+fffffffffffff8a8:    01305e7b    ASLHS R27, R19, #$017 ; 23 in decimal
+fffffffffffff8ac:    0133fe7b    ASLHS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff8b0:    0137fe7b    ASLHS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff8b4:    0134027b    ASLHS R27, R19, #$100 ; -256 in decimal
+fffffffffffff8b8:    013845d3    ASLHS R19, R14, R17
+fffffffffffff8bc:    013e45d3    ASLHS R19, R14, R17 << 12
+fffffffffffff8c0:    01384673    ASLHS R19, R17
+fffffffffffff8c4:    013ec673    ASLHS R19, R17 << 13
+fffffffffffff8c8:    01305e73    ASLHS R19, #$017 ; 23 in decimal
+fffffffffffff8cc:    f1305e7b    MI.ASLHS R27, R19, #$017 ; 23 in decimal
+fffffffffffff8d0:    01005e7b    ASLB R27, R19, #$017 ; 23 in decimal
+fffffffffffff8d4:    0103fe7b    ASLB R27, R19, #$0ff ; 255 in decimal
+fffffffffffff8d8:    0107fe7b    ASLB R27, R19, #$1ff ; -1 in decimal
+fffffffffffff8dc:    0104027b    ASLB R27, R19, #$100 ; -256 in decimal
+fffffffffffff8e0:    010845d3    ASLB R19, R14, R17
+fffffffffffff8e4:    010e45d3    ASLB R19, R14, R17 << 12
+fffffffffffff8e8:    01084673    ASLB R19, R17
+fffffffffffff8ec:    010ec673    ASLB R19, R17 << 13
+fffffffffffff8f0:    01005e73    ASLB R19, #$017 ; 23 in decimal
+fffffffffffff8f4:    f1005e7b    MI.ASLB R27, R19, #$017 ; 23 in decimal
+fffffffffffff8f8:    01105e7b    ASLBS R27, R19, #$017 ; 23 in decimal
+fffffffffffff8fc:    0113fe7b    ASLBS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff900:    0117fe7b    ASLBS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff904:    0114027b    ASLBS R27, R19, #$100 ; -256 in decimal
+fffffffffffff908:    011845d3    ASLBS R19, R14, R17
+fffffffffffff90c:    011e45d3    ASLBS R19, R14, R17 << 12
+fffffffffffff910:    01184673    ASLBS R19, R17
+fffffffffffff914:    011ec673    ASLBS R19, R17 << 13
+fffffffffffff918:    01105e73    ASLBS R19, #$017 ; 23 in decimal
+fffffffffffff91c:    f1105e7b    MI.ASLBS R27, R19, #$017 ; 23 in decimal
+fffffffffffff920:    01c05e7b    ASRW R27, R19, #$017 ; 23 in decimal
+fffffffffffff924:    01c3fe7b    ASRW R27, R19, #$0ff ; 255 in decimal
+fffffffffffff928:    01c7fe7b    ASRW R27, R19, #$1ff ; -1 in decimal
+fffffffffffff92c:    01c4027b    ASRW R27, R19, #$100 ; -256 in decimal
+fffffffffffff930:    01c845d3    ASRW R19, R14, R17
+fffffffffffff934:    01ce45d3    ASRW R19, R14, R17 << 12
+fffffffffffff938:    01c84673    ASRW R19, R17
+fffffffffffff93c:    01cec673    ASRW R19, R17 << 13
+fffffffffffff940:    01c05e73    ASRW R19, #$017 ; 23 in decimal
+fffffffffffff944:    f1c05e7b    MI.ASRW R27, R19, #$017 ; 23 in decimal
+fffffffffffff948:    01d05e7b    ASRWS R27, R19, #$017 ; 23 in decimal
+fffffffffffff94c:    01d3fe7b    ASRWS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff950:    01d7fe7b    ASRWS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff954:    01d4027b    ASRWS R27, R19, #$100 ; -256 in decimal
+fffffffffffff958:    01d845d3    ASRWS R19, R14, R17
+fffffffffffff95c:    01de45d3    ASRWS R19, R14, R17 << 12
+fffffffffffff960:    01d84673    ASRWS R19, R17
+fffffffffffff964:    01dec673    ASRWS R19, R17 << 13
+fffffffffffff968:    01d05e73    ASRWS R19, #$017 ; 23 in decimal
+fffffffffffff96c:    f1d05e7b    MI.ASRWS R27, R19, #$017 ; 23 in decimal
+fffffffffffff970:    01a05e7b    ASRH R27, R19, #$017 ; 23 in decimal
+fffffffffffff974:    01a3fe7b    ASRH R27, R19, #$0ff ; 255 in decimal
+fffffffffffff978:    01a7fe7b    ASRH R27, R19, #$1ff ; -1 in decimal
+fffffffffffff97c:    01a4027b    ASRH R27, R19, #$100 ; -256 in decimal
+fffffffffffff980:    01a845d3    ASRH R19, R14, R17
+fffffffffffff984:    01ae45d3    ASRH R19, R14, R17 << 12
+fffffffffffff988:    01a84673    ASRH R19, R17
+fffffffffffff98c:    01aec673    ASRH R19, R17 << 13
+fffffffffffff990:    01a05e73    ASRH R19, #$017 ; 23 in decimal
+fffffffffffff994:    f1a05e7b    MI.ASRH R27, R19, #$017 ; 23 in decimal
+fffffffffffff998:    01b05e7b    ASRHS R27, R19, #$017 ; 23 in decimal
+fffffffffffff99c:    01b3fe7b    ASRHS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff9a0:    01b7fe7b    ASRHS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff9a4:    01b4027b    ASRHS R27, R19, #$100 ; -256 in decimal
+fffffffffffff9a8:    01b845d3    ASRHS R19, R14, R17
+fffffffffffff9ac:    01be45d3    ASRHS R19, R14, R17 << 12
+fffffffffffff9b0:    01b84673    ASRHS R19, R17
+fffffffffffff9b4:    01bec673    ASRHS R19, R17 << 13
+fffffffffffff9b8:    01b05e73    ASRHS R19, #$017 ; 23 in decimal
+fffffffffffff9bc:    f1b05e7b    MI.ASRHS R27, R19, #$017 ; 23 in decimal
+fffffffffffff9c0:    01805e7b    ASRB R27, R19, #$017 ; 23 in decimal
+fffffffffffff9c4:    0183fe7b    ASRB R27, R19, #$0ff ; 255 in decimal
+fffffffffffff9c8:    0187fe7b    ASRB R27, R19, #$1ff ; -1 in decimal
+fffffffffffff9cc:    0184027b    ASRB R27, R19, #$100 ; -256 in decimal
+fffffffffffff9d0:    018845d3    ASRB R19, R14, R17
+fffffffffffff9d4:    018e45d3    ASRB R19, R14, R17 << 12
+fffffffffffff9d8:    01884673    ASRB R19, R17
+fffffffffffff9dc:    018ec673    ASRB R19, R17 << 13
+fffffffffffff9e0:    01805e73    ASRB R19, #$017 ; 23 in decimal
+fffffffffffff9e4:    f1805e7b    MI.ASRB R27, R19, #$017 ; 23 in decimal
+fffffffffffff9e8:    01905e7b    ASRBS R27, R19, #$017 ; 23 in decimal
+fffffffffffff9ec:    0193fe7b    ASRBS R27, R19, #$0ff ; 255 in decimal
+fffffffffffff9f0:    0197fe7b    ASRBS R27, R19, #$1ff ; -1 in decimal
+fffffffffffff9f4:    0194027b    ASRBS R27, R19, #$100 ; -256 in decimal
+fffffffffffff9f8:    019845d3    ASRBS R19, R14, R17
+fffffffffffff9fc:    019e45d3    ASRBS R19, R14, R17 << 12
+fffffffffffffa00:    01984673    ASRBS R19, R17
+fffffffffffffa04:    019ec673    ASRBS R19, R17 << 13
+fffffffffffffa08:    01905e73    ASRBS R19, #$017 ; 23 in decimal
+fffffffffffffa0c:    f1905e7b    MI.ASRBS R27, R19, #$017 ; 23 in decimal
+fffffffffffffa10:    02405e7b    LSRW R27, R19, #$017 ; 23 in decimal
+fffffffffffffa14:    0243fe7b    LSRW R27, R19, #$0ff ; 255 in decimal
+fffffffffffffa18:    0247fe7b    LSRW R27, R19, #$1ff ; -1 in decimal
+fffffffffffffa1c:    0244027b    LSRW R27, R19, #$100 ; -256 in decimal
+fffffffffffffa20:    024845d3    LSRW R19, R14, R17
+fffffffffffffa24:    024e45d3    LSRW R19, R14, R17 << 12
+fffffffffffffa28:    02484673    LSRW R19, R17
+fffffffffffffa2c:    024ec673    LSRW R19, R17 << 13
+fffffffffffffa30:    02405e73    LSRW R19, #$017 ; 23 in decimal
+fffffffffffffa34:    f2405e7b    MI.LSRW R27, R19, #$017 ; 23 in decimal
+fffffffffffffa38:    02505e7b    LSRWS R27, R19, #$017 ; 23 in decimal
+fffffffffffffa3c:    0253fe7b    LSRWS R27, R19, #$0ff ; 255 in decimal
+fffffffffffffa40:    0257fe7b    LSRWS R27, R19, #$1ff ; -1 in decimal
+fffffffffffffa44:    0254027b    LSRWS R27, R19, #$100 ; -256 in decimal
+fffffffffffffa48:    025845d3    LSRWS R19, R14, R17
+fffffffffffffa4c:    025e45d3    LSRWS R19, R14, R17 << 12
+fffffffffffffa50:    02584673    LSRWS R19, R17
+fffffffffffffa54:    025ec673    LSRWS R19, R17 << 13
+fffffffffffffa58:    02505e73    LSRWS R19, #$017 ; 23 in decimal
+fffffffffffffa5c:    f2505e7b    MI.LSRWS R27, R19, #$017 ; 23 in decimal
+fffffffffffffa60:    02205e7b    LSRH R27, R19, #$017 ; 23 in decimal
+fffffffffffffa64:    0223fe7b    LSRH R27, R19, #$0ff ; 255 in decimal
+fffffffffffffa68:    0227fe7b    LSRH R27, R19, #$1ff ; -1 in decimal
+fffffffffffffa6c:    0224027b    LSRH R27, R19, #$100 ; -256 in decimal
+fffffffffffffa70:    022845d3    LSRH R19, R14, R17
+fffffffffffffa74:    022e45d3    LSRH R19, R14, R17 << 12
+fffffffffffffa78:    02284673    LSRH R19, R17
+fffffffffffffa7c:    022ec673    LSRH R19, R17 << 13
+fffffffffffffa80:    02205e73    LSRH R19, #$017 ; 23 in decimal
+fffffffffffffa84:    f2205e7b    MI.LSRH R27, R19, #$017 ; 23 in decimal
+fffffffffffffa88:    02305e7b    LSRHS R27, R19, #$017 ; 23 in decimal
+fffffffffffffa8c:    0233fe7b    LSRHS R27, R19, #$0ff ; 255 in decimal
+fffffffffffffa90:    0237fe7b    LSRHS R27, R19, #$1ff ; -1 in decimal
+fffffffffffffa94:    0234027b    LSRHS R27, R19, #$100 ; -256 in decimal
+fffffffffffffa98:    023845d3    LSRHS R19, R14, R17
+fffffffffffffa9c:    023e45d3    LSRHS R19, R14, R17 << 12
+fffffffffffffaa0:    02384673    LSRHS R19, R17
+fffffffffffffaa4:    023ec673    LSRHS R19, R17 << 13
+fffffffffffffaa8:    02305e73    LSRHS R19, #$017 ; 23 in decimal
+fffffffffffffaac:    f2305e7b    MI.LSRHS R27, R19, #$017 ; 23 in decimal
+fffffffffffffab0:    02005e7b    LSRB R27, R19, #$017 ; 23 in decimal
+fffffffffffffab4:    0203fe7b    LSRB R27, R19, #$0ff ; 255 in decimal
+fffffffffffffab8:    0207fe7b    LSRB R27, R19, #$1ff ; -1 in decimal
+fffffffffffffabc:    0204027b    LSRB R27, R19, #$100 ; -256 in decimal
+fffffffffffffac0:    020845d3    LSRB R19, R14, R17
+fffffffffffffac4:    020e45d3    LSRB R19, R14, R17 << 12
+fffffffffffffac8:    02084673    LSRB R19, R17
+fffffffffffffacc:    020ec673    LSRB R19, R17 << 13
+fffffffffffffad0:    02005e73    LSRB R19, #$017 ; 23 in decimal
+fffffffffffffad4:    f2005e7b    MI.LSRB R27, R19, #$017 ; 23 in decimal
+fffffffffffffad8:    02105e7b    LSRBS R27, R19, #$017 ; 23 in decimal
+fffffffffffffadc:    0213fe7b    LSRBS R27, R19, #$0ff ; 255 in decimal
+fffffffffffffae0:    0217fe7b    LSRBS R27, R19, #$1ff ; -1 in decimal
+fffffffffffffae4:    0214027b    LSRBS R27, R19, #$100 ; -256 in decimal
+fffffffffffffae8:    021845d3    LSRBS R19, R14, R17
+fffffffffffffaec:    021e45d3    LSRBS R19, R14, R17 << 12
+fffffffffffffaf0:    02184673    LSRBS R19, R17
+fffffffffffffaf4:    021ec673    LSRBS R19, R17 << 13
+fffffffffffffaf8:    02105e73    LSRBS R19, #$017 ; 23 in decimal
+fffffffffffffafc:    f2105e7b    MI.LSRBS R27, R19, #$017 ; 23 in decimal
+fffffffffffffb00:    03405e7b    ROLW R27, R19, #$017 ; 23 in decimal
+fffffffffffffb04:    0343fe7b    ROLW R27, R19, #$0ff ; 255 in decimal
+fffffffffffffb08:    0347fe7b    ROLW R27, R19, #$1ff ; -1 in decimal
+fffffffffffffb0c:    0344027b    ROLW R27, R19, #$100 ; -256 in decimal
+fffffffffffffb10:    034845d3    ROLW R19, R14, R17
+fffffffffffffb14:    034e45d3    ROLW R19, R14, R17 << 12
+fffffffffffffb18:    03484673    ROLW R19, R17
+fffffffffffffb1c:    034ec673    ROLW R19, R17 << 13
+fffffffffffffb20:    03405e73    ROLW R19, #$017 ; 23 in decimal
+fffffffffffffb24:    f3405e7b    MI.ROLW R27, R19, #$017 ; 23 in decimal
+fffffffffffffb28:    03505e7b    ROLWS R27, R19, #$017 ; 23 in decimal
+fffffffffffffb2c:    0353fe7b    ROLWS R27, R19, #$0ff ; 255 in decimal
+fffffffffffffb30:    0357fe7b    ROLWS R27, R19, #$1ff ; -1 in decimal
+fffffffffffffb34:    0354027b    ROLWS R27, R19, #$100 ; -256 in decimal
+fffffffffffffb38:    035845d3    ROLWS R19, R14, R17
+fffffffffffffb3c:    035e45d3    ROLWS R19, R14, R17 << 12
+fffffffffffffb40:    03584673    ROLWS R19, R17
+fffffffffffffb44:    035ec673    ROLWS R19, R17 << 13
+fffffffffffffb48:    03505e73    ROLWS R19, #$017 ; 23 in decimal
+fffffffffffffb4c:    f3505e7b    MI.ROLWS R27, R19, #$017 ; 23 in decimal
+fffffffffffffb50:    03205e7b    ROLH R27, R19, #$017 ; 23 in decimal
+fffffffffffffb54:    0323fe7b    ROLH R27, R19, #$0ff ; 255 in decimal
+fffffffffffffb58:    0327fe7b    ROLH R27, R19, #$1ff ; -1 in decimal
+fffffffffffffb5c:    0324027b    ROLH R27, R19, #$100 ; -256 in decimal
+fffffffffffffb60:    032845d3    ROLH R19, R14, R17
+fffffffffffffb64:    032e45d3    ROLH R19, R14, R17 << 12
+fffffffffffffb68:    03284673    ROLH R19, R17
+fffffffffffffb6c:    032ec673    ROLH R19, R17 << 13
+fffffffffffffb70:    03205e73    ROLH R19, #$017 ; 23 in decimal
+fffffffffffffb74:    f3205e7b    MI.ROLH R27, R19, #$017 ; 23 in decimal
+fffffffffffffb78:    03305e7b    ROLHS R27, R19, #$017 ; 23 in decimal
+fffffffffffffb7c:    0333fe7b    ROLHS R27, R19, #$0ff ; 255 in decimal
+fffffffffffffb80:    0337fe7b    ROLHS R27, R19, #$1ff ; -1 in decimal
+fffffffffffffb84:    0334027b    ROLHS R27, R19, #$100 ; -256 in decimal
+fffffffffffffb88:    033845d3    ROLHS R19, R14, R17
+fffffffffffffb8c:    033e45d3    ROLHS R19, R14, R17 << 12
+fffffffffffffb90:    03384673    ROLHS R19, R17
+fffffffffffffb94:    033ec673    ROLHS R19, R17 << 13
+fffffffffffffb98:    03305e73    ROLHS R19, #$017 ; 23 in decimal
+fffffffffffffb9c:    f3305e7b    MI.ROLHS R27, R19, #$017 ; 23 in decimal
+fffffffffffffba0:    03005e7b    ROLB R27, R19, #$017 ; 23 in decimal
+fffffffffffffba4:    0303fe7b    ROLB R27, R19, #$0ff ; 255 in decimal
+fffffffffffffba8:    0307fe7b    ROLB R27, R19, #$1ff ; -1 in decimal
+fffffffffffffbac:    0304027b    ROLB R27, R19, #$100 ; -256 in decimal
+fffffffffffffbb0:    030845d3    ROLB R19, R14, R17
+fffffffffffffbb4:    030e45d3    ROLB R19, R14, R17 << 12
+fffffffffffffbb8:    03084673    ROLB R19, R17
+fffffffffffffbbc:    030ec673    ROLB R19, R17 << 13
+fffffffffffffbc0:    03005e73    ROLB R19, #$017 ; 23 in decimal
+fffffffffffffbc4:    f3005e7b    MI.ROLB R27, R19, #$017 ; 23 in decimal
+fffffffffffffbc8:    03105e7b    ROLBS R27, R19, #$017 ; 23 in decimal
+fffffffffffffbcc:    0313fe7b    ROLBS R27, R19, #$0ff ; 255 in decimal
+fffffffffffffbd0:    0317fe7b    ROLBS R27, R19, #$1ff ; -1 in decimal
+fffffffffffffbd4:    0314027b    ROLBS R27, R19, #$100 ; -256 in decimal
+fffffffffffffbd8:    031845d3    ROLBS R19, R14, R17
+fffffffffffffbdc:    031e45d3    ROLBS R19, R14, R17 << 12
+fffffffffffffbe0:    03184673    ROLBS R19, R17
+fffffffffffffbe4:    031ec673    ROLBS R19, R17 << 13
+fffffffffffffbe8:    03105e73    ROLBS R19, #$017 ; 23 in decimal
+fffffffffffffbec:    f3105e7b    MI.ROLBS R27, R19, #$017 ; 23 in decimal
+fffffffffffffbf0:    02c05e7b    RORW R27, R19, #$017 ; 23 in decimal
+fffffffffffffbf4:    02c3fe7b    RORW R27, R19, #$0ff ; 255 in decimal
+fffffffffffffbf8:    02c7fe7b    RORW R27, R19, #$1ff ; -1 in decimal
+fffffffffffffbfc:    02c4027b    RORW R27, R19, #$100 ; -256 in decimal
+fffffffffffffc00:    02c845d3    RORW R19, R14, R17
+fffffffffffffc04:    02ce45d3    RORW R19, R14, R17 << 12
+fffffffffffffc08:    02c84673    RORW R19, R17
+fffffffffffffc0c:    02cec673    RORW R19, R17 << 13
+fffffffffffffc10:    02c05e73    RORW R19, #$017 ; 23 in decimal
+fffffffffffffc14:    f2c05e7b    MI.RORW R27, R19, #$017 ; 23 in decimal
+fffffffffffffc18:    02d05e7b    RORWS R27, R19, #$017 ; 23 in decimal
+fffffffffffffc1c:    02d3fe7b    RORWS R27, R19, #$0ff ; 255 in decimal
+fffffffffffffc20:    02d7fe7b    RORWS R27, R19, #$1ff ; -1 in decimal
+fffffffffffffc24:    02d4027b    RORWS R27, R19, #$100 ; -256 in decimal
+fffffffffffffc28:    02d845d3    RORWS R19, R14, R17
+fffffffffffffc2c:    02de45d3    RORWS R19, R14, R17 << 12
+fffffffffffffc30:    02d84673    RORWS R19, R17
+fffffffffffffc34:    02dec673    RORWS R19, R17 << 13
+fffffffffffffc38:    02d05e73    RORWS R19, #$017 ; 23 in decimal
+fffffffffffffc3c:    f2d05e7b    MI.RORWS R27, R19, #$017 ; 23 in decimal
+fffffffffffffc40:    02a05e7b    RORH R27, R19, #$017 ; 23 in decimal
+fffffffffffffc44:    02a3fe7b    RORH R27, R19, #$0ff ; 255 in decimal
+fffffffffffffc48:    02a7fe7b    RORH R27, R19, #$1ff ; -1 in decimal
+fffffffffffffc4c:    02a4027b    RORH R27, R19, #$100 ; -256 in decimal
+fffffffffffffc50:    02a845d3    RORH R19, R14, R17
+fffffffffffffc54:    02ae45d3    RORH R19, R14, R17 << 12
+fffffffffffffc58:    02a84673    RORH R19, R17
+fffffffffffffc5c:    02aec673    RORH R19, R17 << 13
+fffffffffffffc60:    02a05e73    RORH R19, #$017 ; 23 in decimal
+fffffffffffffc64:    f2a05e7b    MI.RORH R27, R19, #$017 ; 23 in decimal
+fffffffffffffc68:    02b05e7b    RORHS R27, R19, #$017 ; 23 in decimal
+fffffffffffffc6c:    02b3fe7b    RORHS R27, R19, #$0ff ; 255 in decimal
+fffffffffffffc70:    02b7fe7b    RORHS R27, R19, #$1ff ; -1 in decimal
+fffffffffffffc74:    02b4027b    RORHS R27, R19, #$100 ; -256 in decimal
+fffffffffffffc78:    02b845d3    RORHS R19, R14, R17
+fffffffffffffc7c:    02be45d3    RORHS R19, R14, R17 << 12
+fffffffffffffc80:    02b84673    RORHS R19, R17
+fffffffffffffc84:    02bec673    RORHS R19, R17 << 13
+fffffffffffffc88:    02b05e73    RORHS R19, #$017 ; 23 in decimal
+fffffffffffffc8c:    f2b05e7b    MI.RORHS R27, R19, #$017 ; 23 in decimal
+fffffffffffffc90:    02805e7b    RORB R27, R19, #$017 ; 23 in decimal
+fffffffffffffc94:    0283fe7b    RORB R27, R19, #$0ff ; 255 in decimal
+fffffffffffffc98:    0287fe7b    RORB R27, R19, #$1ff ; -1 in decimal
+fffffffffffffc9c:    0284027b    RORB R27, R19, #$100 ; -256 in decimal
+fffffffffffffca0:    028845d3    RORB R19, R14, R17
+fffffffffffffca4:    028e45d3    RORB R19, R14, R17 << 12
+fffffffffffffca8:    02884673    RORB R19, R17
+fffffffffffffcac:    028ec673    RORB R19, R17 << 13
+fffffffffffffcb0:    02805e73    RORB R19, #$017 ; 23 in decimal
+fffffffffffffcb4:    f2805e7b    MI.RORB R27, R19, #$017 ; 23 in decimal
+fffffffffffffcb8:    02905e7b    RORBS R27, R19, #$017 ; 23 in decimal
+fffffffffffffcbc:    0293fe7b    RORBS R27, R19, #$0ff ; 255 in decimal
+fffffffffffffcc0:    0297fe7b    RORBS R27, R19, #$1ff ; -1 in decimal
+fffffffffffffcc4:    0294027b    RORBS R27, R19, #$100 ; -256 in decimal
+fffffffffffffcc8:    029845d3    RORBS R19, R14, R17
+fffffffffffffccc:    029e45d3    RORBS R19, R14, R17 << 12
+fffffffffffffcd0:    02984673    RORBS R19, R17
+fffffffffffffcd4:    029ec673    RORBS R19, R17 << 13
+fffffffffffffcd8:    02905e73    RORBS R19, #$017 ; 23 in decimal
+fffffffffffffcdc:    f2905e7b    MI.RORBS R27, R19, #$017 ; 23 in decimal
+fffffffffffffce0:    05c05e7b    SUMW R27, R19, #$017 ; 23 in decimal
+fffffffffffffce4:    05c3fe7b    SUMW R27, R19, #$0ff ; 255 in decimal
+fffffffffffffce8:    05c7fe7b    SUMW R27, R19, #$1ff ; -1 in decimal
+fffffffffffffcec:    05c4027b    SUMW R27, R19, #$100 ; -256 in decimal
+fffffffffffffcf0:    05c845d3    SUMW R19, R14, R17
+fffffffffffffcf4:    05ce45d3    SUMW R19, R14, R17 << 12
+fffffffffffffcf8:    05c84673    SUMW R19, R17
+fffffffffffffcfc:    05cec673    SUMW R19, R17 << 13
+fffffffffffffd00:    05c05e73    SUMW R19, #$017 ; 23 in decimal
+fffffffffffffd04:    f5c05e7b    MI.SUMW R27, R19, #$017 ; 23 in decimal
+fffffffffffffd08:    05d05e7b    SUMWS R27, R19, #$017 ; 23 in decimal
+fffffffffffffd0c:    05d3fe7b    SUMWS R27, R19, #$0ff ; 255 in decimal
+fffffffffffffd10:    05d7fe7b    SUMWS R27, R19, #$1ff ; -1 in decimal
+fffffffffffffd14:    05d4027b    SUMWS R27, R19, #$100 ; -256 in decimal
+fffffffffffffd18:    05d845d3    SUMWS R19, R14, R17
+fffffffffffffd1c:    05de45d3    SUMWS R19, R14, R17 << 12
+fffffffffffffd20:    05d84673    SUMWS R19, R17
+fffffffffffffd24:    05dec673    SUMWS R19, R17 << 13
+fffffffffffffd28:    05d05e73    SUMWS R19, #$017 ; 23 in decimal
+fffffffffffffd2c:    f5d05e7b    MI.SUMWS R27, R19, #$017 ; 23 in decimal
+fffffffffffffd30:    05a05e7b    SUMH R27, R19, #$017 ; 23 in decimal
+fffffffffffffd34:    05a3fe7b    SUMH R27, R19, #$0ff ; 255 in decimal
+fffffffffffffd38:    05a7fe7b    SUMH R27, R19, #$1ff ; -1 in decimal
+fffffffffffffd3c:    05a4027b    SUMH R27, R19, #$100 ; -256 in decimal
+fffffffffffffd40:    05a845d3    SUMH R19, R14, R17
+fffffffffffffd44:    05ae45d3    SUMH R19, R14, R17 << 12
+fffffffffffffd48:    05a84673    SUMH R19, R17
+fffffffffffffd4c:    05aec673    SUMH R19, R17 << 13
+fffffffffffffd50:    05a05e73    SUMH R19, #$017 ; 23 in decimal
+fffffffffffffd54:    f5a05e7b    MI.SUMH R27, R19, #$017 ; 23 in decimal
+fffffffffffffd58:    05b05e7b    SUMHS R27, R19, #$017 ; 23 in decimal
+fffffffffffffd5c:    05b3fe7b    SUMHS R27, R19, #$0ff ; 255 in decimal
+fffffffffffffd60:    05b7fe7b    SUMHS R27, R19, #$1ff ; -1 in decimal
+fffffffffffffd64:    05b4027b    SUMHS R27, R19, #$100 ; -256 in decimal
+fffffffffffffd68:    05b845d3    SUMHS R19, R14, R17
+fffffffffffffd6c:    05be45d3    SUMHS R19, R14, R17 << 12
+fffffffffffffd70:    05b84673    SUMHS R19, R17
+fffffffffffffd74:    05bec673    SUMHS R19, R17 << 13
+fffffffffffffd78:    05b05e73    SUMHS R19, #$017 ; 23 in decimal
+fffffffffffffd7c:    f5b05e7b    MI.SUMHS R27, R19, #$017 ; 23 in decimal
+fffffffffffffd80:    05805e7b    SUMB R27, R19, #$017 ; 23 in decimal
+fffffffffffffd84:    0583fe7b    SUMB R27, R19, #$0ff ; 255 in decimal
+fffffffffffffd88:    0587fe7b    SUMB R27, R19, #$1ff ; -1 in decimal
+fffffffffffffd8c:    0584027b    SUMB R27, R19, #$100 ; -256 in decimal
+fffffffffffffd90:    058845d3    SUMB R19, R14, R17
+fffffffffffffd94:    058e45d3    SUMB R19, R14, R17 << 12
+fffffffffffffd98:    05884673    SUMB R19, R17
+fffffffffffffd9c:    058ec673    SUMB R19, R17 << 13
+fffffffffffffda0:    05805e73    SUMB R19, #$017 ; 23 in decimal
+fffffffffffffda4:    f5805e7b    MI.SUMB R27, R19, #$017 ; 23 in decimal
+fffffffffffffda8:    05905e7b    SUMBS R27, R19, #$017 ; 23 in decimal
+fffffffffffffdac:    0593fe7b    SUMBS R27, R19, #$0ff ; 255 in decimal
+fffffffffffffdb0:    0597fe7b    SUMBS R27, R19, #$1ff ; -1 in decimal
+fffffffffffffdb4:    0594027b    SUMBS R27, R19, #$100 ; -256 in decimal
+fffffffffffffdb8:    059845d3    SUMBS R19, R14, R17
+fffffffffffffdbc:    059e45d3    SUMBS R19, R14, R17 << 12
+fffffffffffffdc0:    05984673    SUMBS R19, R17
+fffffffffffffdc4:    059ec673    SUMBS R19, R17 << 13
+fffffffffffffdc8:    05905e73    SUMBS R19, #$017 ; 23 in decimal
+fffffffffffffdcc:    f5905e7b    MI.SUMBS R27, R19, #$017 ; 23 in decimal
+fffffffffffffdd0:    0620006f    BLK $fffffffffffffde0
+fffffffffffffdd4:    0627ffef    BLK $fffffffffffffdd4
+fffffffffffffdd8:    0624000f    BLK $ffffffffffff7ddc
+fffffffffffffddc:    0623ffef    BLK $0000000000007ddc
+fffffffffffffde0:    0620001f    BLK LR
+fffffffffffffde4:    06212345    BLK R5, $2468
+fffffffffffffde8:    1620006f    ILG
+fffffffffffffdec:    1627ffef    ILG
+fffffffffffffdf0:    1624000f    ILG
+fffffffffffffdf4:    1623ffef    ILG
+fffffffffffffdf8:    1620001f    ILG
+fffffffffffffdfc:    16212345    ILG
+fffffffffffffe00:    2620006f    CC.BLK $fffffffffffffe10
+fffffffffffffe04:    2627ffef    CC.BLK $fffffffffffffe04
+fffffffffffffe08:    2624000f    CC.BLK $ffffffffffff7e0c
+fffffffffffffe0c:    2623ffef    CC.BLK $0000000000007e0c
+fffffffffffffe10:    2620001f    CC.BLK LR
+fffffffffffffe14:    26212345    CC.BLK R5, $2468
+fffffffffffffe18:    3620006f    CS.BLK $fffffffffffffe28
+fffffffffffffe1c:    3627ffef    CS.BLK $fffffffffffffe1c
+fffffffffffffe20:    3624000f    CS.BLK $ffffffffffff7e24
+fffffffffffffe24:    3623ffef    CS.BLK $0000000000007e24
+fffffffffffffe28:    3620001f    CS.BLK LR
+fffffffffffffe2c:    36212345    CS.BLK R5, $2468
+fffffffffffffe30:    4620006f    NE.BLK $fffffffffffffe40
+fffffffffffffe34:    4627ffef    NE.BLK $fffffffffffffe34
+fffffffffffffe38:    4624000f    NE.BLK $ffffffffffff7e3c
+fffffffffffffe3c:    4623ffef    NE.BLK $0000000000007e3c
+fffffffffffffe40:    4620001f    NE.BLK LR
+fffffffffffffe44:    46212345    NE.BLK R5, $2468
+fffffffffffffe48:    5620006f    EQ.BLK $fffffffffffffe58
+fffffffffffffe4c:    5627ffef    EQ.BLK $fffffffffffffe4c
+fffffffffffffe50:    5624000f    EQ.BLK $ffffffffffff7e54
+fffffffffffffe54:    5623ffef    EQ.BLK $0000000000007e54
+fffffffffffffe58:    5620001f    EQ.BLK LR
+fffffffffffffe5c:    56212345    EQ.BLK R5, $2468
+fffffffffffffe60:    6620006f    LE.BLK $fffffffffffffe70
+fffffffffffffe64:    6627ffef    LE.BLK $fffffffffffffe64
+fffffffffffffe68:    6624000f    LE.BLK $ffffffffffff7e6c
+fffffffffffffe6c:    6623ffef    LE.BLK $0000000000007e6c
+fffffffffffffe70:    6620001f    LE.BLK LR
+fffffffffffffe74:    66212345    LE.BLK R5, $2468
+fffffffffffffe78:    7620006f    GT.BLK $fffffffffffffe88
+fffffffffffffe7c:    7627ffef    GT.BLK $fffffffffffffe7c
+fffffffffffffe80:    7624000f    GT.BLK $ffffffffffff7e84
+fffffffffffffe84:    7623ffef    GT.BLK $0000000000007e84
+fffffffffffffe88:    7620001f    GT.BLK LR
+fffffffffffffe8c:    76212345    GT.BLK R5, $2468
+fffffffffffffe90:    8620006f    LT.BLK $fffffffffffffea0
+fffffffffffffe94:    8627ffef    LT.BLK $fffffffffffffe94
+fffffffffffffe98:    8624000f    LT.BLK $ffffffffffff7e9c
+fffffffffffffe9c:    8623ffef    LT.BLK $0000000000007e9c
+fffffffffffffea0:    8620001f    LT.BLK LR
+fffffffffffffea4:    86212345    LT.BLK R5, $2468
+fffffffffffffea8:    9620006f    GE.BLK $fffffffffffffeb8
+fffffffffffffeac:    9627ffef    GE.BLK $fffffffffffffeac
+fffffffffffffeb0:    9624000f    GE.BLK $ffffffffffff7eb4
+fffffffffffffeb4:    9623ffef    GE.BLK $0000000000007eb4
+fffffffffffffeb8:    9620001f    GE.BLK LR
+fffffffffffffebc:    96212345    GE.BLK R5, $2468
+fffffffffffffec0:    a620006f    LQ.BLK $fffffffffffffed0
+fffffffffffffec4:    a627ffef    LQ.BLK $fffffffffffffec4
+fffffffffffffec8:    a624000f    LQ.BLK $ffffffffffff7ecc
+fffffffffffffecc:    a623ffef    LQ.BLK $0000000000007ecc
+fffffffffffffed0:    a620001f    LQ.BLK LR
+fffffffffffffed4:    a6212345    LQ.BLK R5, $2468
+fffffffffffffed8:    b620006f    HI.BLK $fffffffffffffee8
+fffffffffffffedc:    b627ffef    HI.BLK $fffffffffffffedc
+fffffffffffffee0:    b624000f    HI.BLK $ffffffffffff7ee4
+fffffffffffffee4:    b623ffef    HI.BLK $0000000000007ee4
+fffffffffffffee8:    b620001f    HI.BLK LR
+fffffffffffffeec:    b6212345    HI.BLK R5, $2468
+fffffffffffffef0:    c620006f    VC.BLK $ffffffffffffff00
+fffffffffffffef4:    c627ffef    VC.BLK $fffffffffffffef4
+fffffffffffffef8:    c624000f    VC.BLK $ffffffffffff7efc
+fffffffffffffefc:    c623ffef    VC.BLK $0000000000007efc
+ffffffffffffff00:    c620001f    VC.BLK LR
+ffffffffffffff04:    c6212345    VC.BLK R5, $2468
+ffffffffffffff08:    d620006f    VS.BLK $ffffffffffffff18
+ffffffffffffff0c:    d627ffef    VS.BLK $ffffffffffffff0c
+ffffffffffffff10:    d624000f    VS.BLK $ffffffffffff7f14
+ffffffffffffff14:    d623ffef    VS.BLK $0000000000007f14
+ffffffffffffff18:    d620001f    VS.BLK LR
+ffffffffffffff1c:    d6212345    VS.BLK R5, $2468
+ffffffffffffff20:    e620006f    PL.BLK $ffffffffffffff30
+ffffffffffffff24:    e627ffef    PL.BLK $ffffffffffffff24
+ffffffffffffff28:    e624000f    PL.BLK $ffffffffffff7f2c
+ffffffffffffff2c:    e623ffef    PL.BLK $0000000000007f2c
+ffffffffffffff30:    e620001f    PL.BLK LR
+ffffffffffffff34:    e6212345    PL.BLK R5, $2468
+ffffffffffffff38:    f620006f    MI.BLK $ffffffffffffff48
+ffffffffffffff3c:    f627ffef    MI.BLK $ffffffffffffff3c
+ffffffffffffff40:    f624000f    MI.BLK $ffffffffffff7f44
+ffffffffffffff44:    f623ffef    MI.BLK $0000000000007f44
+ffffffffffffff48:    f620001f    MI.BLK LR
+ffffffffffffff4c:    f6212345    MI.BLK R5, $2468
+ffffffffffffff50:    0740000d    TCR R13
+ffffffffffffff54:    d740001d    VS.TCR R29
+ffffffffffffff58:    0760000d    TRC R13
+ffffffffffffff5c:    d760001d    VS.TRC R29
+ffffffffffffff60:    0780000d    TSR R13
+ffffffffffffff64:    d780001d    VS.TSR R29
+ffffffffffffff68:    07a0000d    TRS R13
+ffffffffffffff6c:    d7a0001d    VS.TRS R29
+ffffffffffffff70:    07c00000    RTI 
+ffffffffffffff74:    d7c12345    VS.RTI 
+ffffffffffffff78:    07e00000    SYS 
+ffffffffffffff7c:    d7e12345    VS.SYS 
+ffffffffffffff80:    04123456    ILG
+ffffffffffffff84:    04264456    ILG
+ffffffffffffff88:    04543210    ILG
+ffffffffffffff8c:    048ecaca    ILG
+ffffffffffffff90:    04bc9191    ILG
+ffffffffffffff94:    04cdac12    ILG
+ffffffffffffff98:    050dad52    ILG
+ffffffffffffff9c:    053baca1    ILG
+ffffffffffffffa0:    054deadc    ILG
+ffffffffffffffa4:    064deafb    ILG
+ffffffffffffffa8:    067c0de0    ILG
+ffffffffffffffac:    068107e1    ILG
+ffffffffffffffb0:    06beef00    ILG
+ffffffffffffffb4:    06d1c489    ILG
+ffffffffffffffb8:    06e516e1    ILG
+ffffffffffffffbc:    071e3631    ILG
+ffffffffffffffc0:    072bad00    ILG
+ffffffffffffffc4:    14123456    ILG
+ffffffffffffffc8:    24264456    CC.ILG
+ffffffffffffffcc:    34543210    CS.ILG
+ffffffffffffffd0:    448ecaca    NE.ILG
+ffffffffffffffd4:    54bc9191    EQ.ILG
+ffffffffffffffd8:    64cdac12    LE.ILG
+ffffffffffffffdc:    750dad52    GT.ILG
+ffffffffffffffe0:    853baca1    LT.ILG
+ffffffffffffffe4:    954deadc    GE.ILG
+ffffffffffffffe8:    a64deafb    LQ.ILG
+ffffffffffffffec:    b67c0de0    HI.ILG
+fffffffffffffff0:    c68107e1    VC.ILG
+fffffffffffffff4:    d6beef00    VS.ILG
+fffffffffffffff8:    e6d1c489    PL.ILG
+fffffffffffffffc:    f6e516e1    MI.ILG

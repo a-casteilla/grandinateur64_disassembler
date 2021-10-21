@@ -1,0 +1,15 @@
+#!/bin/sh
+
+sc64disassembler input.bin > out1.txt
+sc64disassembler -s 0123400000 -w 40 input.bin > out2.txt
+sc64disassembler -e 001320 input.bin > out3.txt
+sc64disassembler -rw 64 input.bin > out4.txt
+sc64disassembler -m input.bin > out5.txt
+
+vimdiff out1.txt test_program_1.txt
+vimdiff out2.txt test_program_2.txt
+vimdiff out3.txt test_program_3.txt
+vimdiff out4.txt test_program_4.txt
+vimdiff out5.txt test_program_5.txt
+
+rm out*.txt

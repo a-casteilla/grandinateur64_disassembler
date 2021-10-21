@@ -1,0 +1,9 @@
+Before running the test, you have to install the disassembler with the command : 
+# make install
+in the disassembler directory. You may have to install it as root (with sudo
+for example). Take the time to check the Makefile before running it as root. 
+DON'T TRUST ME, AND MY MAKEFILE !
+
+Then, run "test" in this directory :
+this will run the test five times with different command-line parameter.
+vimdiff will run after so you can compare each output with the expected result.

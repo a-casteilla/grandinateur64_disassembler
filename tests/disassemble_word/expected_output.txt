@@ -1,0 +1,1272 @@
+BAL $001244
+BAL $001234
+BAL $ff9238
+BAL $009234
+BAL LR
+BAL R5, $2468
+ILG
+ILG
+ILG
+ILG
+ILG
+ILG
+BCC $001244
+BCC $001234
+BCC $ff9238
+BCC $009234
+BCC LR
+BCC R5, $2468
+BCS $001244
+BCS $001234
+BCS $ff9238
+BCS $009234
+BCS LR
+BCS R5, $2468
+BNE $001244
+BNE $001234
+BNE $ff9238
+BNE $009234
+BNE LR
+BNE R5, $2468
+BEQ $001244
+BEQ $001234
+BEQ $ff9238
+BEQ $009234
+BEQ LR
+BEQ R5, $2468
+BLE $001244
+BLE $001234
+BLE $ff9238
+BLE $009234
+BLE LR
+BLE R5, $2468
+BGT $001244
+BGT $001234
+BGT $ff9238
+BGT $009234
+BGT LR
+BGT R5, $2468
+BLT $001244
+BLT $001234
+BLT $ff9238
+BLT $009234
+BLT LR
+BLT R5, $2468
+BGE $001244
+BGE $001234
+BGE $ff9238
+BGE $009234
+BGE LR
+BGE R5, $2468
+BLQ $001244
+BLQ $001234
+BLQ $ff9238
+BLQ $009234
+BLQ LR
+BLQ R5, $2468
+BHI $001244
+BHI $001234
+BHI $ff9238
+BHI $009234
+BHI LR
+BHI R5, $2468
+BVC $001244
+BVC $001234
+BVC $ff9238
+BVC $009234
+BVC LR
+BVC R5, $2468
+BVS $001244
+BVS $001234
+BVS $ff9238
+BVS $009234
+BVS LR
+BVS R5, $2468
+BPL $001244
+BPL $001234
+BPL $ff9238
+BPL $009234
+BPL LR
+BPL R5, $2468
+BMI $001244
+BMI $001234
+BMI $ff9238
+BMI $009234
+BMI LR
+BMI R5, $2468
+LDW R4, $003dec
+LDW R4, $ffcdec
+LDW R20, R21
+LDWS R20, R21, $128
+LDW R20, PC, $001360
+LDW R20, PC, $001060
+LDW R20, PC, $ffff28
+LDW R20, PC, $000327
+LDW R20, R12, R21
+LDW R20, R12, R21 << 23
+LDW R20, R12, R21+
+LDW R20, R12, R21-
+LDW R20, R12, +R21
+LDW R20, R12, -R21
+MI.LDW R20, R21
+MI.LDWS R20, R21, $128
+LWS R4, $003dec
+LWS R4, $ffcdec
+LWS R20, R21
+LWSS R20, R21, $128
+LWS R20, PC, $001360
+LWS R20, PC, $001060
+LWS R20, PC, $ffff28
+LWS R20, PC, $000327
+LWS R20, R12, R21
+LWS R20, R12, R21 << 23
+LWS R20, R12, R21+
+LWS R20, R12, R21-
+LWS R20, R12, +R21
+LWS R20, R12, -R21
+PL.LWS R20, R21
+PL.LWSS R20, R21, $128
+LWU R4, $003dec
+LWU R4, $ffcdec
+LWU R20, R21
+LWUS R20, R21, $128
+LWU R20, PC, $001360
+LWU R20, PC, $001060
+LWU R20, PC, $ffff28
+LWU R20, PC, $000327
+LWU R20, R12, R21
+LWU R20, R12, R21 << 23
+LWU R20, R12, R21+
+LWU R20, R12, R21-
+LWU R20, R12, +R21
+LWU R20, R12, -R21
+VS.LWU R20, R21
+VS.LWUS R20, R21, $128
+LHS R4, $003dec
+LHS R4, $ffcdec
+LHS R20, R21
+LHSS R20, R21, $128
+LHS R20, PC, $001360
+LHS R20, PC, $001060
+LHS R20, PC, $ffff28
+LHS R20, PC, $000327
+LHS R20, R12, R21
+LHS R20, R12, R21 << 23
+LHS R20, R12, R21+
+LHS R20, R12, R21-
+LHS R20, R12, +R21
+LHS R20, R12, -R21
+VC.LHS R20, R21
+VC.LHSS R20, R21, $128
+LHU R4, $003dec
+LHU R4, $ffcdec
+LHU R20, R21
+LHUS R20, R21, $128
+LHU R20, PC, $001360
+LHU R20, PC, $001060
+LHU R20, PC, $ffff28
+LHU R20, PC, $000327
+LHU R20, R12, R21
+LHU R20, R12, R21 << 23
+LHU R20, R12, R21+
+LHU R20, R12, R21-
+LHU R20, R12, +R21
+LHU R20, R12, -R21
+HI.LHU R20, R21
+HI.LHUS R20, R21, $128
+LBS R4, $003dec
+LBS R4, $ffcdec
+LBS R20, R21
+LBSS R20, R21, $128
+LBS R20, PC, $001360
+LBS R20, PC, $001060
+LBS R20, PC, $ffff28
+LBS R20, PC, $000327
+LBS R20, R12, R21
+LBS R20, R12, R21 << 23
+LBS R20, R12, R21+
+LBS R20, R12, R21-
+LBS R20, R12, +R21
+LBS R20, R12, -R21
+LQ.LBS R20, R21
+LQ.LBSS R20, R21, $128
+LBU R4, $003dec
+LBU R4, $ffcdec
+LBU R20, R21
+LBUS R20, R21, $128
+LBU R20, PC, $001360
+LBU R20, PC, $001060
+LBU R20, PC, $ffff28
+LBU R20, PC, $000327
+LBU R20, R12, R21
+LBU R20, R12, R21 << 23
+LBU R20, R12, R21+
+LBU R20, R12, R21-
+LBU R20, R12, +R21
+LBU R20, R12, -R21
+GE.LBU R20, R21
+GE.LBUS R20, R21, $128
+STD R4, $003dec
+STD R4, $ffcdec
+STD R20, R21
+STDS R20, R21, $128
+STD R20, PC, $001360
+STD R20, PC, $001060
+STD R20, PC, $ffff28
+STD R20, PC, $000327
+STD R20, R12, R21
+STD R20, R12, R21 << 23
+STD R20, R12, R21+
+STD R20, R12, R21-
+STD R20, R12, +R21
+STD R20, R12, -R21
+LT.STD R20, R21
+LT.STDS R20, R21, $128
+STW R4, $003dec
+STW R4, $ffcdec
+STW R20, R21
+STWS R20, R21, $128
+STW R20, PC, $001360
+STW R20, PC, $001060
+STW R20, PC, $ffff28
+STW R20, PC, $000327
+STW R20, R12, R21
+STW R20, R12, R21 << 23
+STW R20, R12, R21+
+STW R20, R12, R21-
+STW R20, R12, +R21
+STW R20, R12, -R21
+GT.STW R20, R21
+GT.STWS R20, R21, $128
+STW R4, $003dec
+STW R4, $ffcdec
+STW R20, R21
+STWS R20, R21, $128
+STW R20, PC, $001360
+STW R20, PC, $001060
+STW R20, PC, $ffff28
+STW R20, PC, $000327
+STW R20, R12, R21
+STW R20, R12, R21 << 23
+STW R20, R12, R21+
+STW R20, R12, R21-
+STW R20, R12, +R21
+STW R20, R12, -R21
+LE.STW R20, R21
+LE.STWS R20, R21, $128
+STH R4, $003dec
+STH R4, $ffcdec
+STH R20, R21
+STHS R20, R21, $128
+STH R20, PC, $001360
+STH R20, PC, $001060
+STH R20, PC, $ffff28
+STH R20, PC, $000327
+STH R20, R12, R21
+STH R20, R12, R21 << 23
+STH R20, R12, R21+
+STH R20, R12, R21-
+STH R20, R12, +R21
+STH R20, R12, -R21
+EQ.STH R20, R21
+EQ.STHS R20, R21, $128
+STH R4, $003dec
+STH R4, $ffcdec
+STH R20, R21
+STHS R20, R21, $128
+STH R20, PC, $001360
+STH R20, PC, $001060
+STH R20, PC, $ffff28
+STH R20, PC, $000327
+STH R20, R12, R21
+STH R20, R12, R21 << 23
+STH R20, R12, R21+
+STH R20, R12, R21-
+STH R20, R12, +R21
+STH R20, R12, -R21
+NE.STH R20, R21
+NE.STHS R20, R21, $128
+STB R4, $003dec
+STB R4, $ffcdec
+STB R20, R21
+STBS R20, R21, $128
+STB R20, PC, $001360
+STB R20, PC, $001060
+STB R20, PC, $ffff28
+STB R20, PC, $000327
+STB R20, R12, R21
+STB R20, R12, R21 << 23
+STB R20, R12, R21+
+STB R20, R12, R21-
+STB R20, R12, +R21
+STB R20, R12, -R21
+CS.STB R20, R21
+CS.STBS R20, R21, $128
+STB R4, $003dec
+STB R4, $ffcdec
+STB R20, R21
+STBS R20, R21, $128
+STB R20, PC, $001360
+STB R20, PC, $001060
+STB R20, PC, $ffff28
+STB R20, PC, $000327
+STB R20, R12, R21
+STB R20, R12, R21 << 23
+STB R20, R12, R21+
+STB R20, R12, R21-
+STB R20, R12, +R21
+STB R20, R12, -R21
+CC.STB R20, R21
+CC.STBS R20, R21, $128
+LLD R4, $003dec
+LLD R4, $ffcdec
+LLD R20, R21
+LLDS R20, R21, $128
+LLD R20, PC, $001360
+LLD R20, PC, $001060
+LLD R20, PC, $ffff28
+LLD R20, PC, $000327
+LLD R20, R12, R21
+LLD R20, R12, R21 << 23
+LLD R20, R12, R21+
+LLD R20, R12, R21-
+LLD R20, R12, +R21
+LLD R20, R12, -R21
+ILG
+ILG
+SCD R4, $003dec
+SCD R4, $ffcdec
+SCD R20, R21
+SCDS R20, R21, $128
+SCD R20, PC, $001360
+SCD R20, PC, $001060
+SCD R20, PC, $ffff28
+SCD R20, PC, $000327
+SCD R20, R12, R21
+SCD R20, R12, R21 << 23
+SCD R20, R12, R21+
+SCD R20, R12, R21-
+SCD R20, R12, +R21
+SCD R20, R12, -R21
+BAL R0, $002468
+BAL R0, $ff8468
+ADD R27, R19, #$017 ; 23 in decimal
+ADD R27, R19, #$0ff ; 255 in decimal
+ADD R27, R19, #$1ff ; -1 in decimal
+ADD R27, R19, #$100 ; -256 in decimal
+ADD R19, R14, R17
+ADD R19, R14, R17 << 12
+ADD R19, R17
+ADD R19, R17 << 13
+ADD R19, #$017 ; 23 in decimal
+MI.ADD R27, R19, #$017 ; 23 in decimal
+ADDS R27, R19, #$017 ; 23 in decimal
+ADDS R27, R19, #$0ff ; 255 in decimal
+ADDS R27, R19, #$1ff ; -1 in decimal
+ADDS R27, R19, #$100 ; -256 in decimal
+ADDS R19, R14, R17
+ADDS R19, R14, R17 << 12
+ADDS R19, R17
+ADDS R19, R17 << 13
+ADDS R19, #$017 ; 23 in decimal
+MI.ADDS R27, R19, #$017 ; 23 in decimal
+SUB R27, R19, #$017 ; 23 in decimal
+SUB R27, R19, #$0ff ; 255 in decimal
+SUB R27, R19, #$1ff ; -1 in decimal
+SUB R27, R19, #$100 ; -256 in decimal
+SUB R19, R14, R17
+SUB R19, R14, R17 << 12
+SUB R19, R17
+SUB R19, R17 << 13
+SUB R19, #$017 ; 23 in decimal
+PL.SUB R27, R19, #$017 ; 23 in decimal
+SUBS R27, R19, #$017 ; 23 in decimal
+SUBS R27, R19, #$0ff ; 255 in decimal
+SUBS R27, R19, #$1ff ; -1 in decimal
+SUBS R27, R19, #$100 ; -256 in decimal
+SUBS R19, R14, R17
+SUBS R19, R14, R17 << 12
+SUBS R19, R17
+SUBS R19, R17 << 13
+SUBS R19, #$017 ; 23 in decimal
+PL.SUBS R27, R19, #$017 ; 23 in decimal
+AND R27, R19, #$017 ; 23 in decimal
+AND R27, R19, #$0ff ; 255 in decimal
+AND R27, R19, #$1ff ; -1 in decimal
+AND R27, R19, #$100 ; -256 in decimal
+AND R19, R14, R17
+AND R19, R14, R17 << 12
+AND R19, R17
+AND R19, R17 << 13
+AND R19, #$017 ; 23 in decimal
+VS.AND R27, R19, #$017 ; 23 in decimal
+ANDS R27, R19, #$017 ; 23 in decimal
+ANDS R27, R19, #$0ff ; 255 in decimal
+ANDS R27, R19, #$1ff ; -1 in decimal
+ANDS R27, R19, #$100 ; -256 in decimal
+ANDS R19, R14, R17
+ANDS R19, R14, R17 << 12
+ANDS R19, R17
+ANDS R19, R17 << 13
+ANDS R19, #$017 ; 23 in decimal
+VS.ANDS R27, R19, #$017 ; 23 in decimal
+ORR R27, R19, #$017 ; 23 in decimal
+ORR R27, R19, #$0ff ; 255 in decimal
+ORR R27, R19, #$1ff ; -1 in decimal
+ORR R27, R19, #$100 ; -256 in decimal
+ORR R19, R14, R17
+ORR R19, R14, R17 << 12
+ORR R19, R17
+ORR R19, R17 << 13
+ORR R19, #$017 ; 23 in decimal
+VC.ORR R27, R19, #$017 ; 23 in decimal
+ORRS R27, R19, #$017 ; 23 in decimal
+ORRS R27, R19, #$0ff ; 255 in decimal
+ORRS R27, R19, #$1ff ; -1 in decimal
+ORRS R27, R19, #$100 ; -256 in decimal
+ORRS R19, R14, R17
+ORRS R19, R14, R17 << 12
+ORRS R19, R17
+ORRS R19, R17 << 13
+ORRS R19, #$017 ; 23 in decimal
+VC.ORRS R27, R19, #$017 ; 23 in decimal
+EOR R27, R19, #$017 ; 23 in decimal
+EOR R27, R19, #$0ff ; 255 in decimal
+EOR R27, R19, #$1ff ; -1 in decimal
+EOR R27, R19, #$100 ; -256 in decimal
+EOR R19, R14, R17
+EOR R19, R14, R17 << 12
+EOR R19, R17
+EOR R19, R17 << 13
+EOR R19, #$017 ; 23 in decimal
+HI.EOR R27, R19, #$017 ; 23 in decimal
+EORS R27, R19, #$017 ; 23 in decimal
+EORS R27, R19, #$0ff ; 255 in decimal
+EORS R27, R19, #$1ff ; -1 in decimal
+EORS R27, R19, #$100 ; -256 in decimal
+EORS R19, R14, R17
+EORS R19, R14, R17 << 12
+EORS R19, R17
+EORS R19, R17 << 13
+EORS R19, #$017 ; 23 in decimal
+HI.EORS R27, R19, #$017 ; 23 in decimal
+ASL R27, R19, #$017 ; 23 in decimal
+ASL R27, R19, #$0ff ; 255 in decimal
+ASL R27, R19, #$1ff ; -1 in decimal
+ASL R27, R19, #$100 ; -256 in decimal
+ASL R19, R14, R17
+ASL R19, R14, R17 << 12
+ASL R19, R17
+ASL R19, R17 << 13
+ASL R19, #$017 ; 23 in decimal
+LQ.ASL R27, R19, #$017 ; 23 in decimal
+ASLS R27, R19, #$017 ; 23 in decimal
+ASLS R27, R19, #$0ff ; 255 in decimal
+ASLS R27, R19, #$1ff ; -1 in decimal
+ASLS R27, R19, #$100 ; -256 in decimal
+ASLS R19, R14, R17
+ASLS R19, R14, R17 << 12
+ASLS R19, R17
+ASLS R19, R17 << 13
+ASLS R19, #$017 ; 23 in decimal
+LQ.ASLS R27, R19, #$017 ; 23 in decimal
+LSR R27, R19, #$017 ; 23 in decimal
+LSR R27, R19, #$0ff ; 255 in decimal
+LSR R27, R19, #$1ff ; -1 in decimal
+LSR R27, R19, #$100 ; -256 in decimal
+LSR R19, R14, R17
+LSR R19, R14, R17 << 12
+LSR R19, R17
+LSR R19, R17 << 13
+LSR R19, #$017 ; 23 in decimal
+GE.LSR R27, R19, #$017 ; 23 in decimal
+LSRS R27, R19, #$017 ; 23 in decimal
+LSRS R27, R19, #$0ff ; 255 in decimal
+LSRS R27, R19, #$1ff ; -1 in decimal
+LSRS R27, R19, #$100 ; -256 in decimal
+LSRS R19, R14, R17
+LSRS R19, R14, R17 << 12
+LSRS R19, R17
+LSRS R19, R17 << 13
+LSRS R19, #$017 ; 23 in decimal
+GE.LSRS R27, R19, #$017 ; 23 in decimal
+ASR R27, R19, #$017 ; 23 in decimal
+ASR R27, R19, #$0ff ; 255 in decimal
+ASR R27, R19, #$1ff ; -1 in decimal
+ASR R27, R19, #$100 ; -256 in decimal
+ASR R19, R14, R17
+ASR R19, R14, R17 << 12
+ASR R19, R17
+ASR R19, R17 << 13
+ASR R19, #$017 ; 23 in decimal
+LT.ASR R27, R19, #$017 ; 23 in decimal
+ASRS R27, R19, #$017 ; 23 in decimal
+ASRS R27, R19, #$0ff ; 255 in decimal
+ASRS R27, R19, #$1ff ; -1 in decimal
+ASRS R27, R19, #$100 ; -256 in decimal
+ASRS R19, R14, R17
+ASRS R19, R14, R17 << 12
+ASRS R19, R17
+ASRS R19, R17 << 13
+ASRS R19, #$017 ; 23 in decimal
+LT.ASRS R27, R19, #$017 ; 23 in decimal
+ROL R27, R19, #$017 ; 23 in decimal
+ROL R27, R19, #$0ff ; 255 in decimal
+ROL R27, R19, #$1ff ; -1 in decimal
+ROL R27, R19, #$100 ; -256 in decimal
+ROL R19, R14, R17
+ROL R19, R14, R17 << 12
+ROL R19, R17
+ROL R19, R17 << 13
+ROL R19, #$017 ; 23 in decimal
+GT.ROL R27, R19, #$017 ; 23 in decimal
+ROLS R27, R19, #$017 ; 23 in decimal
+ROLS R27, R19, #$0ff ; 255 in decimal
+ROLS R27, R19, #$1ff ; -1 in decimal
+ROLS R27, R19, #$100 ; -256 in decimal
+ROLS R19, R14, R17
+ROLS R19, R14, R17 << 12
+ROLS R19, R17
+ROLS R19, R17 << 13
+ROLS R19, #$017 ; 23 in decimal
+GT.ROLS R27, R19, #$017 ; 23 in decimal
+ROR R27, R19, #$017 ; 23 in decimal
+ROR R27, R19, #$0ff ; 255 in decimal
+ROR R27, R19, #$1ff ; -1 in decimal
+ROR R27, R19, #$100 ; -256 in decimal
+ROR R19, R14, R17
+ROR R19, R14, R17 << 12
+ROR R19, R17
+ROR R19, R17 << 13
+ROR R19, #$017 ; 23 in decimal
+LE.ROR R27, R19, #$017 ; 23 in decimal
+RORS R27, R19, #$017 ; 23 in decimal
+RORS R27, R19, #$0ff ; 255 in decimal
+RORS R27, R19, #$1ff ; -1 in decimal
+RORS R27, R19, #$100 ; -256 in decimal
+RORS R19, R14, R17
+RORS R19, R14, R17 << 12
+RORS R19, R17
+RORS R19, R17 << 13
+RORS R19, #$017 ; 23 in decimal
+LE.RORS R27, R19, #$017 ; 23 in decimal
+MUL R27, R19, #$017 ; 23 in decimal
+MUL R27, R19, #$0ff ; 255 in decimal
+MUL R27, R19, #$1ff ; -1 in decimal
+MUL R27, R19, #$100 ; -256 in decimal
+MUL R19, R14, R17
+MUL R19, R14, R17 << 12
+MUL R19, R17
+MUL R19, R17 << 13
+MUL R19, #$017 ; 23 in decimal
+EQ.MUL R27, R19, #$017 ; 23 in decimal
+MULS R27, R19, #$017 ; 23 in decimal
+MULS R27, R19, #$0ff ; 255 in decimal
+MULS R27, R19, #$1ff ; -1 in decimal
+MULS R27, R19, #$100 ; -256 in decimal
+MULS R19, R14, R17
+MULS R19, R14, R17 << 12
+MULS R19, R17
+MULS R19, R17 << 13
+MULS R19, #$017 ; 23 in decimal
+EQ.MULS R27, R19, #$017 ; 23 in decimal
+ADC R27, R19, #$017 ; 23 in decimal
+ADC R27, R19, #$0ff ; 255 in decimal
+ADC R27, R19, #$1ff ; -1 in decimal
+ADC R27, R19, #$100 ; -256 in decimal
+ADC R19, R14, R17
+ADC R19, R14, R17 << 12
+ADC R19, R17
+ADC R19, R17 << 13
+ADC R19, #$017 ; 23 in decimal
+NE.ADC R27, R19, #$017 ; 23 in decimal
+ADCS R27, R19, #$017 ; 23 in decimal
+ADCS R27, R19, #$0ff ; 255 in decimal
+ADCS R27, R19, #$1ff ; -1 in decimal
+ADCS R27, R19, #$100 ; -256 in decimal
+ADCS R19, R14, R17
+ADCS R19, R14, R17 << 12
+ADCS R19, R17
+ADCS R19, R17 << 13
+ADCS R19, #$017 ; 23 in decimal
+NE.ADCS R27, R19, #$017 ; 23 in decimal
+SBC R27, R19, #$017 ; 23 in decimal
+SBC R27, R19, #$0ff ; 255 in decimal
+SBC R27, R19, #$1ff ; -1 in decimal
+SBC R27, R19, #$100 ; -256 in decimal
+SBC R19, R14, R17
+SBC R19, R14, R17 << 12
+SBC R19, R17
+SBC R19, R17 << 13
+SBC R19, #$017 ; 23 in decimal
+CS.SBC R27, R19, #$017 ; 23 in decimal
+SBCS R27, R19, #$017 ; 23 in decimal
+SBCS R27, R19, #$0ff ; 255 in decimal
+SBCS R27, R19, #$1ff ; -1 in decimal
+SBCS R27, R19, #$100 ; -256 in decimal
+SBCS R19, R14, R17
+SBCS R19, R14, R17 << 12
+SBCS R19, R17
+SBCS R19, R17 << 13
+SBCS R19, #$017 ; 23 in decimal
+CS.SBCS R27, R19, #$017 ; 23 in decimal
+RLC R27, R19, #$017 ; 23 in decimal
+RLC R27, R19, #$0ff ; 255 in decimal
+RLC R27, R19, #$1ff ; -1 in decimal
+RLC R27, R19, #$100 ; -256 in decimal
+RLC R19, R14, R17
+RLC R19, R14, R17 << 12
+RLC R19, R17
+RLC R19, R17 << 13
+RLC R19, #$017 ; 23 in decimal
+CC.RLC R27, R19, #$017 ; 23 in decimal
+RLCS R27, R19, #$017 ; 23 in decimal
+RLCS R27, R19, #$0ff ; 255 in decimal
+RLCS R27, R19, #$1ff ; -1 in decimal
+RLCS R27, R19, #$100 ; -256 in decimal
+RLCS R19, R14, R17
+RLCS R19, R14, R17 << 12
+RLCS R19, R17
+RLCS R19, R17 << 13
+RLCS R19, #$017 ; 23 in decimal
+CC.RLCS R27, R19, #$017 ; 23 in decimal
+RRC R27, R19, #$017 ; 23 in decimal
+RRC R27, R19, #$0ff ; 255 in decimal
+RRC R27, R19, #$1ff ; -1 in decimal
+RRC R27, R19, #$100 ; -256 in decimal
+RRC R19, R14, R17
+RRC R19, R14, R17 << 12
+RRC R19, R17
+RRC R19, R17 << 13
+RRC R19, #$017 ; 23 in decimal
+ILG
+RRCS R27, R19, #$017 ; 23 in decimal
+RRCS R27, R19, #$0ff ; 255 in decimal
+RRCS R27, R19, #$1ff ; -1 in decimal
+RRCS R27, R19, #$100 ; -256 in decimal
+RRCS R19, R14, R17
+RRCS R19, R14, R17 << 12
+RRCS R19, R17
+RRCS R19, R17 << 13
+RRCS R19, #$017 ; 23 in decimal
+ILG
+ADDW R27, R19, #$017 ; 23 in decimal
+ADDW R27, R19, #$0ff ; 255 in decimal
+ADDW R27, R19, #$1ff ; -1 in decimal
+ADDW R27, R19, #$100 ; -256 in decimal
+ADDW R19, R14, R17
+ADDW R19, R14, R17 << 12
+ADDW R19, R17
+ADDW R19, R17 << 13
+ADDW R19, #$017 ; 23 in decimal
+MI.ADDW R27, R19, #$017 ; 23 in decimal
+ADDWS R27, R19, #$017 ; 23 in decimal
+ADDWS R27, R19, #$0ff ; 255 in decimal
+ADDWS R27, R19, #$1ff ; -1 in decimal
+ADDWS R27, R19, #$100 ; -256 in decimal
+ADDWS R19, R14, R17
+ADDWS R19, R14, R17 << 12
+ADDWS R19, R17
+ADDWS R19, R17 << 13
+ADDWS R19, #$017 ; 23 in decimal
+MI.ADDWS R27, R19, #$017 ; 23 in decimal
+ADDH R27, R19, #$017 ; 23 in decimal
+ADDH R27, R19, #$0ff ; 255 in decimal
+ADDH R27, R19, #$1ff ; -1 in decimal
+ADDH R27, R19, #$100 ; -256 in decimal
+ADDH R19, R14, R17
+ADDH R19, R14, R17 << 12
+ADDH R19, R17
+ADDH R19, R17 << 13
+ADDH R19, #$017 ; 23 in decimal
+MI.ADDH R27, R19, #$017 ; 23 in decimal
+ADDHS R27, R19, #$017 ; 23 in decimal
+ADDHS R27, R19, #$0ff ; 255 in decimal
+ADDHS R27, R19, #$1ff ; -1 in decimal
+ADDHS R27, R19, #$100 ; -256 in decimal
+ADDHS R19, R14, R17
+ADDHS R19, R14, R17 << 12
+ADDHS R19, R17
+ADDHS R19, R17 << 13
+ADDHS R19, #$017 ; 23 in decimal
+MI.ADDHS R27, R19, #$017 ; 23 in decimal
+ADDB R27, R19, #$017 ; 23 in decimal
+ADDB R27, R19, #$0ff ; 255 in decimal
+ADDB R27, R19, #$1ff ; -1 in decimal
+ADDB R27, R19, #$100 ; -256 in decimal
+ADDB R19, R14, R17
+ADDB R19, R14, R17 << 12
+ADDB R19, R17
+ADDB R19, R17 << 13
+ADDB R19, #$017 ; 23 in decimal
+MI.ADDB R27, R19, #$017 ; 23 in decimal
+ADDBS R27, R19, #$017 ; 23 in decimal
+ADDBS R27, R19, #$0ff ; 255 in decimal
+ADDBS R27, R19, #$1ff ; -1 in decimal
+ADDBS R27, R19, #$100 ; -256 in decimal
+ADDBS R19, R14, R17
+ADDBS R19, R14, R17 << 12
+ADDBS R19, R17
+ADDBS R19, R17 << 13
+ADDBS R19, #$017 ; 23 in decimal
+MI.ADDBS R27, R19, #$017 ; 23 in decimal
+SUBW R27, R19, #$017 ; 23 in decimal
+SUBW R27, R19, #$0ff ; 255 in decimal
+SUBW R27, R19, #$1ff ; -1 in decimal
+SUBW R27, R19, #$100 ; -256 in decimal
+SUBW R19, R14, R17
+SUBW R19, R14, R17 << 12
+SUBW R19, R17
+SUBW R19, R17 << 13
+SUBW R19, #$017 ; 23 in decimal
+MI.SUBW R27, R19, #$017 ; 23 in decimal
+SUBWS R27, R19, #$017 ; 23 in decimal
+SUBWS R27, R19, #$0ff ; 255 in decimal
+SUBWS R27, R19, #$1ff ; -1 in decimal
+SUBWS R27, R19, #$100 ; -256 in decimal
+SUBWS R19, R14, R17
+SUBWS R19, R14, R17 << 12
+SUBWS R19, R17
+SUBWS R19, R17 << 13
+SUBWS R19, #$017 ; 23 in decimal
+MI.SUBWS R27, R19, #$017 ; 23 in decimal
+SUBH R27, R19, #$017 ; 23 in decimal
+SUBH R27, R19, #$0ff ; 255 in decimal
+SUBH R27, R19, #$1ff ; -1 in decimal
+SUBH R27, R19, #$100 ; -256 in decimal
+SUBH R19, R14, R17
+SUBH R19, R14, R17 << 12
+SUBH R19, R17
+SUBH R19, R17 << 13
+SUBH R19, #$017 ; 23 in decimal
+MI.SUBH R27, R19, #$017 ; 23 in decimal
+SUBHS R27, R19, #$017 ; 23 in decimal
+SUBHS R27, R19, #$0ff ; 255 in decimal
+SUBHS R27, R19, #$1ff ; -1 in decimal
+SUBHS R27, R19, #$100 ; -256 in decimal
+SUBHS R19, R14, R17
+SUBHS R19, R14, R17 << 12
+SUBHS R19, R17
+SUBHS R19, R17 << 13
+SUBHS R19, #$017 ; 23 in decimal
+MI.SUBHS R27, R19, #$017 ; 23 in decimal
+SUBB R27, R19, #$017 ; 23 in decimal
+SUBB R27, R19, #$0ff ; 255 in decimal
+SUBB R27, R19, #$1ff ; -1 in decimal
+SUBB R27, R19, #$100 ; -256 in decimal
+SUBB R19, R14, R17
+SUBB R19, R14, R17 << 12
+SUBB R19, R17
+SUBB R19, R17 << 13
+SUBB R19, #$017 ; 23 in decimal
+MI.SUBB R27, R19, #$017 ; 23 in decimal
+SUBBS R27, R19, #$017 ; 23 in decimal
+SUBBS R27, R19, #$0ff ; 255 in decimal
+SUBBS R27, R19, #$1ff ; -1 in decimal
+SUBBS R27, R19, #$100 ; -256 in decimal
+SUBBS R19, R14, R17
+SUBBS R19, R14, R17 << 12
+SUBBS R19, R17
+SUBBS R19, R17 << 13
+SUBBS R19, #$017 ; 23 in decimal
+MI.SUBBS R27, R19, #$017 ; 23 in decimal
+ASLW R27, R19, #$017 ; 23 in decimal
+ASLW R27, R19, #$0ff ; 255 in decimal
+ASLW R27, R19, #$1ff ; -1 in decimal
+ASLW R27, R19, #$100 ; -256 in decimal
+ASLW R19, R14, R17
+ASLW R19, R14, R17 << 12
+ASLW R19, R17
+ASLW R19, R17 << 13
+ASLW R19, #$017 ; 23 in decimal
+MI.ASLW R27, R19, #$017 ; 23 in decimal
+ASLWS R27, R19, #$017 ; 23 in decimal
+ASLWS R27, R19, #$0ff ; 255 in decimal
+ASLWS R27, R19, #$1ff ; -1 in decimal
+ASLWS R27, R19, #$100 ; -256 in decimal
+ASLWS R19, R14, R17
+ASLWS R19, R14, R17 << 12
+ASLWS R19, R17
+ASLWS R19, R17 << 13
+ASLWS R19, #$017 ; 23 in decimal
+MI.ASLWS R27, R19, #$017 ; 23 in decimal
+ASLH R27, R19, #$017 ; 23 in decimal
+ASLH R27, R19, #$0ff ; 255 in decimal
+ASLH R27, R19, #$1ff ; -1 in decimal
+ASLH R27, R19, #$100 ; -256 in decimal
+ASLH R19, R14, R17
+ASLH R19, R14, R17 << 12
+ASLH R19, R17
+ASLH R19, R17 << 13
+ASLH R19, #$017 ; 23 in decimal
+MI.ASLH R27, R19, #$017 ; 23 in decimal
+ASLHS R27, R19, #$017 ; 23 in decimal
+ASLHS R27, R19, #$0ff ; 255 in decimal
+ASLHS R27, R19, #$1ff ; -1 in decimal
+ASLHS R27, R19, #$100 ; -256 in decimal
+ASLHS R19, R14, R17
+ASLHS R19, R14, R17 << 12
+ASLHS R19, R17
+ASLHS R19, R17 << 13
+ASLHS R19, #$017 ; 23 in decimal
+MI.ASLHS R27, R19, #$017 ; 23 in decimal
+ASLB R27, R19, #$017 ; 23 in decimal
+ASLB R27, R19, #$0ff ; 255 in decimal
+ASLB R27, R19, #$1ff ; -1 in decimal
+ASLB R27, R19, #$100 ; -256 in decimal
+ASLB R19, R14, R17
+ASLB R19, R14, R17 << 12
+ASLB R19, R17
+ASLB R19, R17 << 13
+ASLB R19, #$017 ; 23 in decimal
+MI.ASLB R27, R19, #$017 ; 23 in decimal
+ASLBS R27, R19, #$017 ; 23 in decimal
+ASLBS R27, R19, #$0ff ; 255 in decimal
+ASLBS R27, R19, #$1ff ; -1 in decimal
+ASLBS R27, R19, #$100 ; -256 in decimal
+ASLBS R19, R14, R17
+ASLBS R19, R14, R17 << 12
+ASLBS R19, R17
+ASLBS R19, R17 << 13
+ASLBS R19, #$017 ; 23 in decimal
+MI.ASLBS R27, R19, #$017 ; 23 in decimal
+ASRW R27, R19, #$017 ; 23 in decimal
+ASRW R27, R19, #$0ff ; 255 in decimal
+ASRW R27, R19, #$1ff ; -1 in decimal
+ASRW R27, R19, #$100 ; -256 in decimal
+ASRW R19, R14, R17
+ASRW R19, R14, R17 << 12
+ASRW R19, R17
+ASRW R19, R17 << 13
+ASRW R19, #$017 ; 23 in decimal
+MI.ASRW R27, R19, #$017 ; 23 in decimal
+ASRWS R27, R19, #$017 ; 23 in decimal
+ASRWS R27, R19, #$0ff ; 255 in decimal
+ASRWS R27, R19, #$1ff ; -1 in decimal
+ASRWS R27, R19, #$100 ; -256 in decimal
+ASRWS R19, R14, R17
+ASRWS R19, R14, R17 << 12
+ASRWS R19, R17
+ASRWS R19, R17 << 13
+ASRWS R19, #$017 ; 23 in decimal
+MI.ASRWS R27, R19, #$017 ; 23 in decimal
+ASRH R27, R19, #$017 ; 23 in decimal
+ASRH R27, R19, #$0ff ; 255 in decimal
+ASRH R27, R19, #$1ff ; -1 in decimal
+ASRH R27, R19, #$100 ; -256 in decimal
+ASRH R19, R14, R17
+ASRH R19, R14, R17 << 12
+ASRH R19, R17
+ASRH R19, R17 << 13
+ASRH R19, #$017 ; 23 in decimal
+MI.ASRH R27, R19, #$017 ; 23 in decimal
+ASRHS R27, R19, #$017 ; 23 in decimal
+ASRHS R27, R19, #$0ff ; 255 in decimal
+ASRHS R27, R19, #$1ff ; -1 in decimal
+ASRHS R27, R19, #$100 ; -256 in decimal
+ASRHS R19, R14, R17
+ASRHS R19, R14, R17 << 12
+ASRHS R19, R17
+ASRHS R19, R17 << 13
+ASRHS R19, #$017 ; 23 in decimal
+MI.ASRHS R27, R19, #$017 ; 23 in decimal
+ASRB R27, R19, #$017 ; 23 in decimal
+ASRB R27, R19, #$0ff ; 255 in decimal
+ASRB R27, R19, #$1ff ; -1 in decimal
+ASRB R27, R19, #$100 ; -256 in decimal
+ASRB R19, R14, R17
+ASRB R19, R14, R17 << 12
+ASRB R19, R17
+ASRB R19, R17 << 13
+ASRB R19, #$017 ; 23 in decimal
+MI.ASRB R27, R19, #$017 ; 23 in decimal
+ASRBS R27, R19, #$017 ; 23 in decimal
+ASRBS R27, R19, #$0ff ; 255 in decimal
+ASRBS R27, R19, #$1ff ; -1 in decimal
+ASRBS R27, R19, #$100 ; -256 in decimal
+ASRBS R19, R14, R17
+ASRBS R19, R14, R17 << 12
+ASRBS R19, R17
+ASRBS R19, R17 << 13
+ASRBS R19, #$017 ; 23 in decimal
+MI.ASRBS R27, R19, #$017 ; 23 in decimal
+LSRW R27, R19, #$017 ; 23 in decimal
+LSRW R27, R19, #$0ff ; 255 in decimal
+LSRW R27, R19, #$1ff ; -1 in decimal
+LSRW R27, R19, #$100 ; -256 in decimal
+LSRW R19, R14, R17
+LSRW R19, R14, R17 << 12
+LSRW R19, R17
+LSRW R19, R17 << 13
+LSRW R19, #$017 ; 23 in decimal
+MI.LSRW R27, R19, #$017 ; 23 in decimal
+LSRWS R27, R19, #$017 ; 23 in decimal
+LSRWS R27, R19, #$0ff ; 255 in decimal
+LSRWS R27, R19, #$1ff ; -1 in decimal
+LSRWS R27, R19, #$100 ; -256 in decimal
+LSRWS R19, R14, R17
+LSRWS R19, R14, R17 << 12
+LSRWS R19, R17
+LSRWS R19, R17 << 13
+LSRWS R19, #$017 ; 23 in decimal
+MI.LSRWS R27, R19, #$017 ; 23 in decimal
+LSRH R27, R19, #$017 ; 23 in decimal
+LSRH R27, R19, #$0ff ; 255 in decimal
+LSRH R27, R19, #$1ff ; -1 in decimal
+LSRH R27, R19, #$100 ; -256 in decimal
+LSRH R19, R14, R17
+LSRH R19, R14, R17 << 12
+LSRH R19, R17
+LSRH R19, R17 << 13
+LSRH R19, #$017 ; 23 in decimal
+MI.LSRH R27, R19, #$017 ; 23 in decimal
+LSRHS R27, R19, #$017 ; 23 in decimal
+LSRHS R27, R19, #$0ff ; 255 in decimal
+LSRHS R27, R19, #$1ff ; -1 in decimal
+LSRHS R27, R19, #$100 ; -256 in decimal
+LSRHS R19, R14, R17
+LSRHS R19, R14, R17 << 12
+LSRHS R19, R17
+LSRHS R19, R17 << 13
+LSRHS R19, #$017 ; 23 in decimal
+MI.LSRHS R27, R19, #$017 ; 23 in decimal
+LSRB R27, R19, #$017 ; 23 in decimal
+LSRB R27, R19, #$0ff ; 255 in decimal
+LSRB R27, R19, #$1ff ; -1 in decimal
+LSRB R27, R19, #$100 ; -256 in decimal
+LSRB R19, R14, R17
+LSRB R19, R14, R17 << 12
+LSRB R19, R17
+LSRB R19, R17 << 13
+LSRB R19, #$017 ; 23 in decimal
+MI.LSRB R27, R19, #$017 ; 23 in decimal
+LSRBS R27, R19, #$017 ; 23 in decimal
+LSRBS R27, R19, #$0ff ; 255 in decimal
+LSRBS R27, R19, #$1ff ; -1 in decimal
+LSRBS R27, R19, #$100 ; -256 in decimal
+LSRBS R19, R14, R17
+LSRBS R19, R14, R17 << 12
+LSRBS R19, R17
+LSRBS R19, R17 << 13
+LSRBS R19, #$017 ; 23 in decimal
+MI.LSRBS R27, R19, #$017 ; 23 in decimal
+ROLW R27, R19, #$017 ; 23 in decimal
+ROLW R27, R19, #$0ff ; 255 in decimal
+ROLW R27, R19, #$1ff ; -1 in decimal
+ROLW R27, R19, #$100 ; -256 in decimal
+ROLW R19, R14, R17
+ROLW R19, R14, R17 << 12
+ROLW R19, R17
+ROLW R19, R17 << 13
+ROLW R19, #$017 ; 23 in decimal
+MI.ROLW R27, R19, #$017 ; 23 in decimal
+ROLWS R27, R19, #$017 ; 23 in decimal
+ROLWS R27, R19, #$0ff ; 255 in decimal
+ROLWS R27, R19, #$1ff ; -1 in decimal
+ROLWS R27, R19, #$100 ; -256 in decimal
+ROLWS R19, R14, R17
+ROLWS R19, R14, R17 << 12
+ROLWS R19, R17
+ROLWS R19, R17 << 13
+ROLWS R19, #$017 ; 23 in decimal
+MI.ROLWS R27, R19, #$017 ; 23 in decimal
+ROLH R27, R19, #$017 ; 23 in decimal
+ROLH R27, R19, #$0ff ; 255 in decimal
+ROLH R27, R19, #$1ff ; -1 in decimal
+ROLH R27, R19, #$100 ; -256 in decimal
+ROLH R19, R14, R17
+ROLH R19, R14, R17 << 12
+ROLH R19, R17
+ROLH R19, R17 << 13
+ROLH R19, #$017 ; 23 in decimal
+MI.ROLH R27, R19, #$017 ; 23 in decimal
+ROLHS R27, R19, #$017 ; 23 in decimal
+ROLHS R27, R19, #$0ff ; 255 in decimal
+ROLHS R27, R19, #$1ff ; -1 in decimal
+ROLHS R27, R19, #$100 ; -256 in decimal
+ROLHS R19, R14, R17
+ROLHS R19, R14, R17 << 12
+ROLHS R19, R17
+ROLHS R19, R17 << 13
+ROLHS R19, #$017 ; 23 in decimal
+MI.ROLHS R27, R19, #$017 ; 23 in decimal
+ROLB R27, R19, #$017 ; 23 in decimal
+ROLB R27, R19, #$0ff ; 255 in decimal
+ROLB R27, R19, #$1ff ; -1 in decimal
+ROLB R27, R19, #$100 ; -256 in decimal
+ROLB R19, R14, R17
+ROLB R19, R14, R17 << 12
+ROLB R19, R17
+ROLB R19, R17 << 13
+ROLB R19, #$017 ; 23 in decimal
+MI.ROLB R27, R19, #$017 ; 23 in decimal
+ROLBS R27, R19, #$017 ; 23 in decimal
+ROLBS R27, R19, #$0ff ; 255 in decimal
+ROLBS R27, R19, #$1ff ; -1 in decimal
+ROLBS R27, R19, #$100 ; -256 in decimal
+ROLBS R19, R14, R17
+ROLBS R19, R14, R17 << 12
+ROLBS R19, R17
+ROLBS R19, R17 << 13
+ROLBS R19, #$017 ; 23 in decimal
+MI.ROLBS R27, R19, #$017 ; 23 in decimal
+RORW R27, R19, #$017 ; 23 in decimal
+RORW R27, R19, #$0ff ; 255 in decimal
+RORW R27, R19, #$1ff ; -1 in decimal
+RORW R27, R19, #$100 ; -256 in decimal
+RORW R19, R14, R17
+RORW R19, R14, R17 << 12
+RORW R19, R17
+RORW R19, R17 << 13
+RORW R19, #$017 ; 23 in decimal
+MI.RORW R27, R19, #$017 ; 23 in decimal
+RORWS R27, R19, #$017 ; 23 in decimal
+RORWS R27, R19, #$0ff ; 255 in decimal
+RORWS R27, R19, #$1ff ; -1 in decimal
+RORWS R27, R19, #$100 ; -256 in decimal
+RORWS R19, R14, R17
+RORWS R19, R14, R17 << 12
+RORWS R19, R17
+RORWS R19, R17 << 13
+RORWS R19, #$017 ; 23 in decimal
+MI.RORWS R27, R19, #$017 ; 23 in decimal
+RORH R27, R19, #$017 ; 23 in decimal
+RORH R27, R19, #$0ff ; 255 in decimal
+RORH R27, R19, #$1ff ; -1 in decimal
+RORH R27, R19, #$100 ; -256 in decimal
+RORH R19, R14, R17
+RORH R19, R14, R17 << 12
+RORH R19, R17
+RORH R19, R17 << 13
+RORH R19, #$017 ; 23 in decimal
+MI.RORH R27, R19, #$017 ; 23 in decimal
+RORHS R27, R19, #$017 ; 23 in decimal
+RORHS R27, R19, #$0ff ; 255 in decimal
+RORHS R27, R19, #$1ff ; -1 in decimal
+RORHS R27, R19, #$100 ; -256 in decimal
+RORHS R19, R14, R17
+RORHS R19, R14, R17 << 12
+RORHS R19, R17
+RORHS R19, R17 << 13
+RORHS R19, #$017 ; 23 in decimal
+MI.RORHS R27, R19, #$017 ; 23 in decimal
+RORB R27, R19, #$017 ; 23 in decimal
+RORB R27, R19, #$0ff ; 255 in decimal
+RORB R27, R19, #$1ff ; -1 in decimal
+RORB R27, R19, #$100 ; -256 in decimal
+RORB R19, R14, R17
+RORB R19, R14, R17 << 12
+RORB R19, R17
+RORB R19, R17 << 13
+RORB R19, #$017 ; 23 in decimal
+MI.RORB R27, R19, #$017 ; 23 in decimal
+RORBS R27, R19, #$017 ; 23 in decimal
+RORBS R27, R19, #$0ff ; 255 in decimal
+RORBS R27, R19, #$1ff ; -1 in decimal
+RORBS R27, R19, #$100 ; -256 in decimal
+RORBS R19, R14, R17
+RORBS R19, R14, R17 << 12
+RORBS R19, R17
+RORBS R19, R17 << 13
+RORBS R19, #$017 ; 23 in decimal
+MI.RORBS R27, R19, #$017 ; 23 in decimal
+SUMW R27, R19, #$017 ; 23 in decimal
+SUMW R27, R19, #$0ff ; 255 in decimal
+SUMW R27, R19, #$1ff ; -1 in decimal
+SUMW R27, R19, #$100 ; -256 in decimal
+SUMW R19, R14, R17
+SUMW R19, R14, R17 << 12
+SUMW R19, R17
+SUMW R19, R17 << 13
+SUMW R19, #$017 ; 23 in decimal
+MI.SUMW R27, R19, #$017 ; 23 in decimal
+SUMWS R27, R19, #$017 ; 23 in decimal
+SUMWS R27, R19, #$0ff ; 255 in decimal
+SUMWS R27, R19, #$1ff ; -1 in decimal
+SUMWS R27, R19, #$100 ; -256 in decimal
+SUMWS R19, R14, R17
+SUMWS R19, R14, R17 << 12
+SUMWS R19, R17
+SUMWS R19, R17 << 13
+SUMWS R19, #$017 ; 23 in decimal
+MI.SUMWS R27, R19, #$017 ; 23 in decimal
+SUMH R27, R19, #$017 ; 23 in decimal
+SUMH R27, R19, #$0ff ; 255 in decimal
+SUMH R27, R19, #$1ff ; -1 in decimal
+SUMH R27, R19, #$100 ; -256 in decimal
+SUMH R19, R14, R17
+SUMH R19, R14, R17 << 12
+SUMH R19, R17
+SUMH R19, R17 << 13
+SUMH R19, #$017 ; 23 in decimal
+MI.SUMH R27, R19, #$017 ; 23 in decimal
+SUMHS R27, R19, #$017 ; 23 in decimal
+SUMHS R27, R19, #$0ff ; 255 in decimal
+SUMHS R27, R19, #$1ff ; -1 in decimal
+SUMHS R27, R19, #$100 ; -256 in decimal
+SUMHS R19, R14, R17
+SUMHS R19, R14, R17 << 12
+SUMHS R19, R17
+SUMHS R19, R17 << 13
+SUMHS R19, #$017 ; 23 in decimal
+MI.SUMHS R27, R19, #$017 ; 23 in decimal
+SUMB R27, R19, #$017 ; 23 in decimal
+SUMB R27, R19, #$0ff ; 255 in decimal
+SUMB R27, R19, #$1ff ; -1 in decimal
+SUMB R27, R19, #$100 ; -256 in decimal
+SUMB R19, R14, R17
+SUMB R19, R14, R17 << 12
+SUMB R19, R17
+SUMB R19, R17 << 13
+SUMB R19, #$017 ; 23 in decimal
+MI.SUMB R27, R19, #$017 ; 23 in decimal
+SUMBS R27, R19, #$017 ; 23 in decimal
+SUMBS R27, R19, #$0ff ; 255 in decimal
+SUMBS R27, R19, #$1ff ; -1 in decimal
+SUMBS R27, R19, #$100 ; -256 in decimal
+SUMBS R19, R14, R17
+SUMBS R19, R14, R17 << 12
+SUMBS R19, R17
+SUMBS R19, R17 << 13
+SUMBS R19, #$017 ; 23 in decimal
+MI.SUMBS R27, R19, #$017 ; 23 in decimal
+BLK $001244
+BLK $001234
+BLK $ff9238
+BLK $009234
+BLK LR
+BLK R5, $2468
+ILG
+ILG
+ILG
+ILG
+ILG
+ILG
+CC.BLK $001244
+CC.BLK $001234
+CC.BLK $ff9238
+CC.BLK $009234
+CC.BLK LR
+CC.BLK R5, $2468
+CS.BLK $001244
+CS.BLK $001234
+CS.BLK $ff9238
+CS.BLK $009234
+CS.BLK LR
+CS.BLK R5, $2468
+NE.BLK $001244
+NE.BLK $001234
+NE.BLK $ff9238
+NE.BLK $009234
+NE.BLK LR
+NE.BLK R5, $2468
+EQ.BLK $001244
+EQ.BLK $001234
+EQ.BLK $ff9238
+EQ.BLK $009234
+EQ.BLK LR
+EQ.BLK R5, $2468
+LE.BLK $001244
+LE.BLK $001234
+LE.BLK $ff9238
+LE.BLK $009234
+LE.BLK LR
+LE.BLK R5, $2468
+GT.BLK $001244
+GT.BLK $001234
+GT.BLK $ff9238
+GT.BLK $009234
+GT.BLK LR
+GT.BLK R5, $2468
+LT.BLK $001244
+LT.BLK $001234
+LT.BLK $ff9238
+LT.BLK $009234
+LT.BLK LR
+LT.BLK R5, $2468
+GE.BLK $001244
+GE.BLK $001234
+GE.BLK $ff9238
+GE.BLK $009234
+GE.BLK LR
+GE.BLK R5, $2468
+LQ.BLK $001244
+LQ.BLK $001234
+LQ.BLK $ff9238
+LQ.BLK $009234
+LQ.BLK LR
+LQ.BLK R5, $2468
+HI.BLK $001244
+HI.BLK $001234
+HI.BLK $ff9238
+HI.BLK $009234
+HI.BLK LR
+HI.BLK R5, $2468
+VC.BLK $001244
+VC.BLK $001234
+VC.BLK $ff9238
+VC.BLK $009234
+VC.BLK LR
+VC.BLK R5, $2468
+VS.BLK $001244
+VS.BLK $001234
+VS.BLK $ff9238
+VS.BLK $009234
+VS.BLK LR
+VS.BLK R5, $2468
+PL.BLK $001244
+PL.BLK $001234
+PL.BLK $ff9238
+PL.BLK $009234
+PL.BLK LR
+PL.BLK R5, $2468
+MI.BLK $001244
+MI.BLK $001234
+MI.BLK $ff9238
+MI.BLK $009234
+MI.BLK LR
+MI.BLK R5, $2468
+TCR R13
+VS.TCR R29
+TRC R13
+VS.TRC R29
+TSR R13
+VS.TSR R29
+TRS R13
+VS.TRS R29
+RTI 
+VS.RTI 
+SYS 
+VS.SYS 
+ILG
+ILG
+ILG
+ILG
+ILG
+ILG
+ILG
+ILG
+ILG
+ILG
+ILG
+ILG
+ILG
+ILG
+ILG
+ILG
+ILG
+ILG
+CC.ILG
+CS.ILG
+NE.ILG
+EQ.ILG
+LE.ILG
+GT.ILG
+LT.ILG
+GE.ILG
+LQ.ILG
+HI.ILG
+VC.ILG
+VS.ILG
+PL.ILG
+MI.ILG

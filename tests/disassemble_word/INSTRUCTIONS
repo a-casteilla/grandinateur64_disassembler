@@ -1,0 +1,7 @@
+Type "make" :
+this will compile the file with the right flags, then it will run the test.
+vimdiff will be running so you can compare out.txt (the effective output) and
+expected_output.txt
+One extra line may appear in out.txt. This is a side effect of scanf and the
+detection of the end of the file. This has nothing to do with the tested
+function. 
