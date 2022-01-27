@@ -314,7 +314,7 @@ char * disassemble_word (uint32_t instruction_word, uint64_t current_pc) {
 
 void display_help () {
     printf("Usage : ");
-    printf("sc64disassembler inputfile [options]\n");
+    printf("m64dasm inputfile [options]\n");
     printf("Options : \n");
     printf("-w, --adress-width {width}\n");
     printf("-s, --start-address {address}\n");
@@ -326,7 +326,7 @@ void display_help () {
 }
 
 void display_version () {
-    printf("sc64disassembler %s\n", VERSION);
+    printf("m64dasm %s\n", VERSION);
 }
 
 #ifdef unit_test_of_disassemble_word
