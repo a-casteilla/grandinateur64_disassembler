@@ -11,7 +11,7 @@ disassembler.o:
 install: disassembler
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
 	cp -f disassembler $(DESTDIR)$(PREFIX)/bin/m64dasm
-	chmod 755 $(DESTDIR)$(PREFIX)/bin/sc64disassembler
+	chmod 755 $(DESTDIR)$(PREFIX)/bin/m64dasm
 	mkdir -p $(DESTDIR)$(MANPREFIX)/man1
 	cp m64dasm.1 $(DESTDIR)$(MANPREFIX)/man1/m64dasm.1
 	chmod 644 $(DESTDIR)$(MANPREFIX)/man1/m64dasm.1
